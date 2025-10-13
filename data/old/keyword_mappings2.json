@@ -1,0 +1,4023 @@
+{
+  "_meta": {
+    "generated_from": "standardized_dqs_full.json",
+    "generated_at": "2025-09-15T13:57:24.190799Z",
+    "rows": 103512,
+    "unique_topics": 116,
+    "unique_groups": 67,
+    "groups_with_subgroups": 67
+  },
+  "topic_mappings": {
+    "angina/angina_pectoris": {
+      "user_keywords": [
+        "Angina/angina pectoris",
+        "angina/angina pectoris",
+        "angina",
+        "Angina"
+      ],
+      "cdc_topics": [
+        "Angina/angina pectoris"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "any_cancer_type": {
+      "user_keywords": [
+        "Any cancer type",
+        "any cancer type"
+      ],
+      "cdc_topics": [
+        "Any cancer type"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "any_difficulty_communicating": {
+      "user_keywords": [
+        "Any difficulty communicating",
+        "any difficulty communicating"
+      ],
+      "cdc_topics": [
+        "Any difficulty communicating"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "any_difficulty_hearing": {
+      "user_keywords": [
+        "Any difficulty hearing",
+        "any difficulty hearing"
+      ],
+      "cdc_topics": [
+        "Any difficulty hearing"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "any_difficulty_remembering_or_concentrating": {
+      "user_keywords": [
+        "Any difficulty remembering or concentrating",
+        "any difficulty remembering or concentrating"
+      ],
+      "cdc_topics": [
+        "Any difficulty remembering or concentrating"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "any_difficulty_seeing": {
+      "user_keywords": [
+        "Any difficulty seeing",
+        "any difficulty seeing"
+      ],
+      "cdc_topics": [
+        "Any difficulty seeing"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "any_difficulty_walking_or_climbing_steps": {
+      "user_keywords": [
+        "Any difficulty walking or climbing steps",
+        "any difficulty walking or climbing steps"
+      ],
+      "cdc_topics": [
+        "Any difficulty walking or climbing steps"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "any_difficulty_with_self_care": {
+      "user_keywords": [
+        "Any difficulty with self care",
+        "any difficulty with self care"
+      ],
+      "cdc_topics": [
+        "Any difficulty with self care"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "any_skin_cancer": {
+      "user_keywords": [
+        "Any skin cancer",
+        "any skin cancer"
+      ],
+      "cdc_topics": [
+        "Any skin cancer"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "arthritis_diagnosis": {
+      "user_keywords": [
+        "Arthritis diagnosis",
+        "arthritis",
+        "arthritis diagnosis",
+        "joint pain"
+      ],
+      "cdc_topics": [
+        "Arthritis diagnosis"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "asthma_episode/attack_in_adults": {
+      "user_keywords": [
+        "Asthma episode/attack in adults",
+        "asthma episode/attack in adults",
+        "asthma attack"
+      ],
+      "cdc_topics": [
+        "Asthma episode/attack in adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "average_length_of_hospital_stay": {
+      "user_keywords": [
+        "Average length of hospital stay",
+        "average length of hospital stay"
+      ],
+      "cdc_topics": [
+        "Average length of hospital stay"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "bmi_among_adults_measured": {
+      "user_keywords": [
+        "BMI among adults, measured:",
+        "bmi among adults  measured"
+      ],
+      "cdc_topics": [
+        "BMI among adults, measured:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "blood_pressure_check": {
+      "user_keywords": [
+        "Blood pressure check",
+        "blood pressure check"
+      ],
+      "cdc_topics": [
+        "Blood pressure check"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "breast_cancer": {
+      "user_keywords": [
+        "Breast cancer",
+        "breast cancer"
+      ],
+      "cdc_topics": [
+        "Breast cancer"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "copd_emphysema_chronic_bronchitis": {
+      "user_keywords": [
+        "COPD, emphysema, chronic bronchitis",
+        "copd  emphysema  chronic bronchitis"
+      ],
+      "cdc_topics": [
+        "COPD, emphysema, chronic bronchitis"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "calcium_intake": {
+      "user_keywords": [
+        "Calcium intake",
+        "calcium intake"
+      ],
+      "cdc_topics": [
+        "Calcium intake"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "cancer_deaths": {
+      "user_keywords": [
+        "Cancer deaths",
+        "cancer deaths"
+      ],
+      "cdc_topics": [
+        "Cancer deaths"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "cervical_cancer": {
+      "user_keywords": [
+        "Cervical cancer",
+        "cervical cancer"
+      ],
+      "cdc_topics": [
+        "Cervical cancer"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "cholesterol_measured_more_detail": {
+      "user_keywords": [
+        "Cholesterol, measured, more detail:",
+        "cholesterol  measured  more detail",
+        "high cholesterol",
+        "cholesterol levels"
+      ],
+      "cdc_topics": [
+        "Cholesterol, measured, more detail:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "community_hospital_beds": {
+      "user_keywords": [
+        "Community hospital beds",
+        "community hospital beds"
+      ],
+      "cdc_topics": [
+        "Community hospital beds"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "complete_tooth_loss": {
+      "user_keywords": [
+        "Complete tooth loss",
+        "complete tooth loss"
+      ],
+      "cdc_topics": [
+        "Complete tooth loss"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "coronary_heart_disease": {
+      "user_keywords": [
+        "Coronary heart disease",
+        "coronary heart disease"
+      ],
+      "cdc_topics": [
+        "Coronary heart disease"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "counseled_by_a_mental_health_professional": {
+      "user_keywords": [
+        "Counseled by a mental health professional",
+        "counseled by a mental health professional",
+        "mental health counseling",
+        "mental health care",
+        "therapy",
+        "counseling",
+        "mental health treatment"
+      ],
+      "cdc_topics": [
+        "Counseled by a mental health professional"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "current_asthma_in_adults": {
+      "user_keywords": [
+        "Current asthma in adults",
+        "current asthma in adults",
+        "adults currently have asthma",        
+        "asthma",
+        "asthma attack"
+      ],
+      "cdc_topics": [
+        "Current asthma in adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "current_asthma_in_children": {
+      "user_keywords": [
+        "children asthma",
+        "asthma in children",
+        "asthma attack",
+        "asthma",
+        "pediatric asthma",
+        "children currently have asthma",
+        "asthma in kids",
+        "kids asthma",
+        "child asthma",
+        "children with asthma"
+      ],
+      "cdc_topics": [
+        "Current asthma in children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "current_cigarette_smoking": {
+      "user_keywords": [
+        "Current cigarette smoking",
+        "current cigarette smoking",
+        "cigarettes",
+        "cigarette",
+        "tobacco use",
+        "smoking rates",
+        "smoking",
+        "cigarette use"
+      ],
+      "cdc_topics": [
+        "Current cigarette smoking"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "current_electronic_cigarette_or_vaping_product_use": {
+      "user_keywords": [
+        "Current electronic cigarette or vaping product use",
+        "current electronic cigarette or vaping product use",
+        "e-cigarettes",
+        "electronic cigarettes"
+      ],
+      "cdc_topics": [
+        "Current electronic cigarette or vaping product use"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "daily_feelings_of_worry_nervousness_or_anxiety_in_children": {
+      "user_keywords": [
+        "Daily feelings of worry, nervousness, or anxiety in children",
+        "daily feelings of worry  nervousness  or anxiety in children",
+        "anxiety",
+        "worry",
+        "nervousness"
+      ],
+      "cdc_topics": [
+        "Daily feelings of worry, nervousness, or anxiety in children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "delayed_getting_medical_care_due_to_cost_among_adults": {
+      "user_keywords": [
+        "Delayed getting medical care due to cost among adults",
+        "delayed getting medical care due to cost among adults"
+      ],
+      "cdc_topics": [
+        "Delayed getting medical care due to cost among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "delayed_getting_medical_care_due_to_cost_among_children": {
+      "user_keywords": [
+        "Delayed getting medical care due to cost among children",
+        "delayed getting medical care due to cost among children"
+      ],
+      "cdc_topics": [
+        "Delayed getting medical care due to cost among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "dental_exam_or_cleaning": {
+      "user_keywords": [
+        "Dental exam or cleaning",
+        "dental exam or cleaning",
+        "dental health",
+        "dental care",
+        "dental checkup",
+        "oral health",
+        "dentist visit"
+      ],
+      "cdc_topics": [
+        "Dental exam or cleaning"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "dentists": {
+      "user_keywords": [
+        "Dentists",
+        "dentists"
+      ],
+      "cdc_topics": [
+        "Dentists"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "diabetes_diagnosis_self-reported": {
+      "user_keywords": [
+        "Diabetes diagnosis, self-reported",
+        "diabetes diagnosis  self-reported",
+        "type 2 diabetes",
+        "diabetes",
+        "blood sugar"
+      ],
+      "cdc_topics": [
+        "Diabetes diagnosis, self-reported"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "did_not_get_needed_medical_care_due_to_cost": {
+      "user_keywords": [
+        "Did not get needed medical care due to cost",
+        "did not get needed medical care due to cost"
+      ],
+      "cdc_topics": [
+        "Did not get needed medical care due to cost"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "did_not_get_needed_mental_health_care_due_to_cost": {
+      "user_keywords": [
+        "Did not get needed mental health care due to cost",
+        "did not get needed mental health care due to cost"
+      ],
+      "cdc_topics": [
+        "Did not get needed mental health care due to cost"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "did_not_take_medication_as_prescribed_to_save_money": {
+      "user_keywords": [
+        "Did not take medication as prescribed to save money",
+        "did not take medication as prescribed to save money"
+      ],
+      "cdc_topics": [
+        "Did not take medication as prescribed to save money"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "dietary_fiber_intake": {
+      "user_keywords": [
+        "Dietary fiber intake",
+        "dietary fiber intake"
+      ],
+      "cdc_topics": [
+        "Dietary fiber intake"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "disability_status_composite_among_adults": {
+      "user_keywords": [
+        "Disability status (composite) among adults",
+        "disability status  composite  among adults"
+      ],
+      "cdc_topics": [
+        "Disability status (composite) among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "disability_status_composite_among_children": {
+      "user_keywords": [
+        "Disability status (composite) among children",
+        "disability status  composite  among children"
+      ],
+      "cdc_topics": [
+        "Disability status (composite) among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "doctor_visit_among_adults": {
+      "user_keywords": [
+        "Doctor visit among adults",
+        "doctor visit among adults"
+      ],
+      "cdc_topics": [
+        "Doctor visit among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "doctor_visit_among_children": {
+      "user_keywords": [
+        "Doctor visit among children",
+        "doctor visit among children"
+      ],
+      "cdc_topics": [
+        "Doctor visit among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "drug_overdose_deaths": {
+      "user_keywords": [
+        "Drug overdose deaths:",
+        "drug overdose deaths"
+      ],
+      "cdc_topics": [
+        "Drug overdose deaths:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "ever_having_a_learning_disability_in_children": {
+      "user_keywords": [
+        "Ever having a learning disability in children",
+        "ever having a learning disability in children"
+      ],
+      "cdc_topics": [
+        "Ever having a learning disability in children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "ever_having_asthma_in_children": {
+      "user_keywords": [
+        "Ever having asthma in children",
+        "ever having asthma in children",
+        "asthma attack"
+      ],
+      "cdc_topics": [
+        "Ever having asthma in children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "ever_having_attention-deficit/hyperactivity_disorder_in_children": {
+      "user_keywords": [
+        "Ever having attention-deficit/hyperactivity disorder in children",
+        "ever having attention-deficit/hyperactivity disorder in children"
+      ],
+      "cdc_topics": [
+        "Ever having attention-deficit/hyperactivity disorder in children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "ever_received_a_pneumococcal_vaccination": {
+      "user_keywords": [
+        "Ever received a pneumococcal vaccination",
+        "ever received a pneumococcal vaccination"
+      ],
+      "cdc_topics": [
+        "Ever received a pneumococcal vaccination"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "exchange-based_coverage_at_time_of_interview_among_adults": {
+      "user_keywords": [
+        "Exchange-based coverage at time of interview among adults",
+        "exchange-based coverage at time of interview among adults"
+      ],
+      "cdc_topics": [
+        "Exchange-based coverage at time of interview among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "fair_or_poor_health_status_in_adults": {
+      "user_keywords": [
+        "Fair or poor health status in adults",
+        "fair or poor health status in adults"
+      ],
+      "cdc_topics": [
+        "Fair or poor health status in adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "fair_or_poor_health_status_in_children": {
+      "user_keywords": [
+        "Fair or poor health status in children",
+        "fair or poor health status in children"
+      ],
+      "cdc_topics": [
+        "Fair or poor health status in children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "fetal_late_fetal_and_perinatal_deaths": {
+      "user_keywords": [
+        "Fetal, late fetal, and perinatal deaths:",
+        "fetal  late fetal  and perinatal deaths"
+      ],
+      "cdc_topics": [
+        "Fetal, late fetal, and perinatal deaths:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "functioning_difficulties_composite_three-level": {
+      "user_keywords": [
+        "Functioning difficulties (composite, three-level):",
+        "functioning difficulties  composite  three-level"
+      ],
+      "cdc_topics": [
+        "Functioning difficulties (composite, three-level):"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "functioning_difficulties_status_composite_among_adults": {
+      "user_keywords": [
+        "Functioning difficulties status (composite) among adults",
+        "functioning difficulties status  composite  among adults"
+      ],
+      "cdc_topics": [
+        "Functioning difficulties status (composite) among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "functioning_difficulties_status_composite_among_children": {
+      "user_keywords": [
+        "Functioning difficulties status (composite) among children",
+        "functioning difficulties status  composite  among children"
+      ],
+      "cdc_topics": [
+        "Functioning difficulties status (composite) among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "has_a_usual_place_of_care_among_adults": {
+      "user_keywords": [
+        "Has a usual place of care among adults",
+        "has a usual place of care among adults"
+      ],
+      "cdc_topics": [
+        "Has a usual place of care among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "has_a_usual_place_of_care_among_children": {
+      "user_keywords": [
+        "Has a usual place of care among children",
+        "has a usual place of care among children"
+      ],
+      "cdc_topics": [
+        "Has a usual place of care among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "healthcare_employment_and_wages": {
+      "user_keywords": [
+        "Healthcare employment and wages:",
+        "healthcare employment and wages"
+      ],
+      "cdc_topics": [
+        "Healthcare employment and wages:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "heart_attack/myocardial_infarction": {
+      "user_keywords": [
+        "Heart attack/myocardial infarction",
+        "heart attack/myocardial infarction"
+      ],
+      "cdc_topics": [
+        "Heart attack/myocardial infarction"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "heart_disease_deaths": {
+      "user_keywords": [
+        "Heart disease deaths",
+        "heart disease deaths"
+      ],
+      "cdc_topics": [
+        "Heart disease deaths"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "herpes_simplex_virus_type_1": {
+      "user_keywords": [
+        "HSV-1",
+        "HSV1",
+        "herpes simplex virus type 1",
+        "herpes type 1",
+        "Herpes simplex virus type 1"
+      ],
+      "cdc_topics": [
+        "Herpes simplex virus type 1"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "herpes_simplex_virus_type_2": {
+      "user_keywords": [
+        "HSV-2",
+        "HSV2",
+        "herpes simplex virus type 2",
+        "herpes type 2",
+        "herpes type 2 prevalence",
+        "Herpes simplex virus type 2"
+      ],
+      "cdc_topics": [
+        "Herpes simplex virus type 2"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "high_cholesterol_diagnosis_self-reported": {
+      "user_keywords": [
+        "High cholesterol diagnosis, self-reported",
+        "high cholesterol diagnosis  self-reported",
+        "high cholesterol",
+        "cholesterol levels",
+        "high cholesterol levels",
+        "cholesterol",
+        "blood cholesterol"
+      ],
+      "cdc_topics": [
+        "High cholesterol diagnosis, self-reported"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "hospital_admissions": {
+      "user_keywords": [
+        "Hospital admissions",
+        "hospital admissions"
+      ],
+      "cdc_topics": [
+        "Hospital admissions"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "hospital_emergency_department_visit": {
+      "user_keywords": [
+        "Hospital emergency department visit",
+        "hospital emergency department visit"
+      ],
+      "cdc_topics": [
+        "Hospital emergency department visit"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "hospital_emergency_department_visits_by_primary_diagnosis": {
+      "user_keywords": [
+        "Hospital emergency department visits by primary diagnosis:",
+        "hospital emergency department visits by primary diagnosis"
+      ],
+      "cdc_topics": [
+        "Hospital emergency department visits by primary diagnosis:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "hospital_emergency_department_visits_by_reason_for_visit": {
+      "user_keywords": [
+        "Hospital emergency department visits by reason for visit:",
+        "hospital emergency department visits by reason for visit"
+      ],
+      "cdc_topics": [
+        "Hospital emergency department visits by reason for visit:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "hospital_outpatient_visits": {
+      "user_keywords": [
+        "Hospital outpatient visits",
+        "hospital outpatient visits"
+      ],
+      "cdc_topics": [
+        "Hospital outpatient visits"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "hypertension_diagnosis_self-reported": {
+      "user_keywords": [
+        "Hypertension diagnosis, self-reported",
+        "hypertension diagnosis  self-reported",
+        "hypertension diagnosis",
+        "high blood pressure",
+        "bp",
+        "blood pressure medication",
+        "high blood pressure medication",
+        "hypertension medication",
+        "bp medication"
+      ],
+      "cdc_topics": [
+        "Hypertension diagnosis, self-reported"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "hypertension_measured_more_detail": {
+      "user_keywords": [
+        "Hypertension, measured, more detail",
+        "hypertension  measured  more detail",
+        "high blood pressure",
+        "bp"
+      ],
+      "cdc_topics": [
+        "Hypertension, measured, more detail"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "infant_mortality_by_race_and_hispanic_origin": {
+      "user_keywords": [
+        "Infant mortality by race and Hispanic origin:",
+        "infant mortality by race and hispanic origin"
+      ],
+      "cdc_topics": [
+        "Infant mortality by race and Hispanic origin:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "infant_neonatal_and_postneonatal_deaths": {
+      "user_keywords": [
+        "Infant, neonatal, and postneonatal deaths:",
+        "infant  neonatal  and postneonatal deaths"
+      ],
+      "cdc_topics": [
+        "Infant, neonatal, and postneonatal deaths:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "iron_intake": {
+      "user_keywords": [
+        "Iron intake",
+        "iron intake"
+      ],
+      "cdc_topics": [
+        "Iron intake"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "medicaid_coverage_among_people_younger_than_65_years": {
+      "user_keywords": [
+        "Medicaid coverage among people younger than 65 years",
+        "medicaid coverage among people younger than 65 years"
+      ],
+      "cdc_topics": [
+        "Medicaid coverage among people younger than 65 years"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "missing_11_or_more_school_days_due_to_illness_or_injury": {
+      "user_keywords": [
+        "Missing 11 or more school days due to illness or injury",
+        "missing 11 or more school days due to illness or injury"
+      ],
+      "cdc_topics": [
+        "Missing 11 or more school days due to illness or injury"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "national_health_spending": {
+      "user_keywords": [
+        "National health spending",
+        "national health spending"
+      ],
+      "cdc_topics": [
+        "National health spending"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "obesity_in_adults_self-reported": {
+      "user_keywords": [
+        "Obesity in adults, self-reported",
+        "obesity in adults  self-reported",
+        "bmi",
+        "overweight",
+        "obesity in adults",
+        "adult obesity",
+        "obesity",
+        "obesity status",
+        "obese status",
+        "obese status by gender",
+        "obesity by gender",
+        "obesity in adults by gender",
+        "adult obesity by gender",
+        "obesity by race and sex",
+        "obesity by sex and race"
+      ],
+      "cdc_topics": [
+        "Obesity in adults, self-reported"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "obesity_in_children_measured_more_detail": {
+      "user_keywords": [
+        "Obesity in children, measured, more detail",
+        "obesity in children  measured  more detail",
+        "bmi",
+        "obesity",
+        "obesity status",
+        "obese status",
+        "overweight"
+      ],
+      "cdc_topics": [
+        "Obesity in children, measured, more detail"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "outpatient_surgery_for_community_hospitals": {
+      "user_keywords": [
+        "Outpatient surgery for community hospitals",
+        "outpatient surgery for community hospitals"
+      ],
+      "cdc_topics": [
+        "Outpatient surgery for community hospitals"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "personal_healthcare_spending": {
+      "user_keywords": [
+        "Personal healthcare spending:",
+        "personal healthcare spending"
+      ],
+      "cdc_topics": [
+        "Personal healthcare spending:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "potassium_intake": {
+      "user_keywords": [
+        "Potassium intake",
+        "potassium intake"
+      ],
+      "cdc_topics": [
+        "Potassium intake"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "prescription_medication_use_among_adults": {
+      "user_keywords": [
+        "Prescription medication use among adults",
+        "prescription medication use among adults"
+      ],
+      "cdc_topics": [
+        "Prescription medication use among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "prescription_medication_use_among_children": {
+      "user_keywords": [
+        "Prescription medication use among children",
+        "prescription medication use among children"
+      ],
+      "cdc_topics": [
+        "Prescription medication use among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "prescription_medication_use_by_number_of_medications": {
+      "user_keywords": [
+        "Prescription medication use, by number of medications:",
+        "prescription medication use  by number of medications"
+      ],
+      "cdc_topics": [
+        "Prescription medication use, by number of medications:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "private_health_insurance_coverage_at_time_of_interview_among_adults": {
+      "user_keywords": [
+        "Private health insurance coverage at time of interview among adults",
+        "private health insurance coverage at time of interview among adults",
+        "health insurance",
+        "coverage",
+        "uninsured"
+      ],
+      "cdc_topics": [
+        "Private health insurance coverage at time of interview among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "prostate_cancer": {
+      "user_keywords": [
+        "Prostate cancer",
+        "prostate cancer"
+      ],
+      "cdc_topics": [
+        "Prostate cancer"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "public_health_insurance_coverage_at_time_of_interview_among_adults": {
+      "user_keywords": [
+        "Public health insurance coverage at time of interview among adults",
+        "public health insurance coverage at time of interview among adults",
+        "health insurance",
+        "coverage",
+        "uninsured"
+      ],
+      "cdc_topics": [
+        "Public health insurance coverage at time of interview among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "receipt_of_influenza_vaccination_among_adults": {
+      "user_keywords": [
+        "Receipt of influenza vaccination among adults",
+        "receipt of influenza vaccination among adults",
+        "flu shot",
+        "flu vaccine",
+        "flu vaccination",
+        "influenza vaccine",
+        "flu immunization"
+      ],
+      "cdc_topics": [
+        "Receipt of influenza vaccination among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "receipt_of_influenza_vaccination_among_children": {
+      "user_keywords": [
+        "Receipt of influenza vaccination among children",
+        "receipt of influenza vaccination among children",
+        "flu shot",
+        "flu vaccine",
+        "flu vaccination",
+        "influenza vaccine",
+        "flu immunization",
+        "vaccination rates among children",
+        "children vaccination rates",
+        "pediatric vaccination",
+        "kids vaccination",
+        "child immunization"
+      ],
+      "cdc_topics": [
+        "Receipt of influenza vaccination among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "receive_special_education_or_early_intervention_services_among_children": {
+      "user_keywords": [
+        "Receive special education or early intervention services among children",
+        "receive special education or early intervention services among children"
+      ],
+      "cdc_topics": [
+        "Receive special education or early intervention services among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "receive_special_education_services_for_mental_health_problems_among_children": {
+      "user_keywords": [
+        "Receive special education services for mental health problems among children",
+        "receive special education services for mental health problems among children"
+      ],
+      "cdc_topics": [
+        "Receive special education services for mental health problems among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "regularly_experienced_chronic_pain": {
+      "user_keywords": [
+        "Regularly experienced chronic pain",
+        "regularly experienced chronic pain"
+      ],
+      "cdc_topics": [
+        "Regularly experienced chronic pain"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "regularly_had_feelings_of_depression": {
+      "user_keywords": [
+        "Regularly had feelings of depression",
+        "regularly had feelings of depression",
+        "feeling depressed"
+      ],
+      "cdc_topics": [
+        "Regularly had feelings of depression"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "regularly_had_feelings_of_worry_nervousness_or_anxiety": {
+      "user_keywords": [
+        "Regularly had feelings of worry, nervousness, or anxiety",
+        "regularly had feelings of worry  nervousness  or anxiety",
+        "worry",
+        "anxious",
+        "nervousness"
+      ],
+      "cdc_topics": [
+        "Regularly had feelings of worry, nervousness, or anxiety"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "saturated_fat_intake": {
+      "user_keywords": [
+        "Saturated fat intake",
+        "saturated fat intake"
+      ],
+      "cdc_topics": [
+        "Saturated fat intake"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "six_or_more_workdays_missed_due_to_illness_injury_or_disability": {
+      "user_keywords": [
+        "Six or more workdays missed due to illness, injury, or disability",
+        "six or more workdays missed due to illness  injury  or disability"
+      ],
+      "cdc_topics": [
+        "Six or more workdays missed due to illness, injury, or disability"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "sodium_intake": {
+      "user_keywords": [
+        "Sodium intake",
+        "sodium intake"
+      ],
+      "cdc_topics": [
+        "Sodium intake"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "suicide_deaths": {
+      "user_keywords": [
+        "Suicide deaths",
+        "suicide mortality",
+        "suicide death rate",                
+        "suicide deaths"
+      ],
+      "cdc_topics": [
+        "Suicide deaths"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "taking_prescription_medication_for_feelings_of_depression": {
+      "user_keywords": [
+        "Taking prescription medication for feelings of depression",
+        "taking prescription medication for feelings of depression",
+        "feeling depressed"
+      ],
+      "cdc_topics": [
+        "Taking prescription medication for feelings of depression"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "taking_prescription_medication_for_feelings_of_worry_nervousness_or_anxiety": {
+      "user_keywords": [
+        "Taking prescription medication for feelings of worry, nervousness, or anxiety",
+        "taking prescription medication for feelings of worry  nervousness  or anxiety",
+        "worry",
+        "anxiety medication",
+        "anxiety meds",
+        "nervousness"
+      ],
+      "cdc_topics": [
+        "Taking prescription medication for feelings of worry, nervousness, or anxiety"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "total_dental_caries_in_permanent_teeth_in_adults": {
+      "user_keywords": [
+        "Total dental caries in permanent teeth in adults",
+        "total dental caries in permanent teeth in adults"
+      ],
+      "cdc_topics": [
+        "Total dental caries in permanent teeth in adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "total_dental_caries_in_permanent_teeth_in_children": {
+      "user_keywords": [
+        "Total dental caries in permanent teeth in children",
+        "total dental caries in permanent teeth in children"
+      ],
+      "cdc_topics": [
+        "Total dental caries in permanent teeth in children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "total_dental_caries_in_primary_teeth": {
+      "user_keywords": [
+        "Total dental caries in primary teeth",
+        "total dental caries in primary teeth"
+      ],
+      "cdc_topics": [
+        "Total dental caries in primary teeth"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "two_or_more_hospital_emergency_department_visits_among_children": {
+      "user_keywords": [
+        "Two or more hospital emergency department visits among children",
+        "two or more hospital emergency department visits among children"
+      ],
+      "cdc_topics": [
+        "Two or more hospital emergency department visits among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "two_or_more_urgent_care_center_or_retail_health_clinic_visits_among_children": {
+      "user_keywords": [
+        "Two or more urgent care center or retail health clinic visits among children:",
+        "two or more urgent care center or retail health clinic visits among children"
+      ],
+      "cdc_topics": [
+        "Two or more urgent care center or retail health clinic visits among children:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "uninsured_at_time_of_interview_among_adults": {
+      "user_keywords": [
+        "Uninsured at time of interview among adults",
+        "uninsured at time of interview among adults"
+      ],
+      "cdc_topics": [
+        "Uninsured at time of interview among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "uninsured_at_time_of_interview_among_children": {
+      "user_keywords": [
+        "Uninsured at time of interview among children",
+        "uninsured at time of interview among children"
+      ],
+      "cdc_topics": [
+        "Uninsured at time of interview among children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "uninsured_for_at_least_part_of_the_past_year_among_adults": {
+      "user_keywords": [
+        "Uninsured for at least part of the past year among adults",
+        "uninsured for at least part of the past year among adults"
+      ],
+      "cdc_topics": [
+        "Uninsured for at least part of the past year among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "uninsured_for_more_than_one_year_among_adults": {
+      "user_keywords": [
+        "Uninsured for more than one year among adults",
+        "uninsured for more than one year among adults"
+      ],
+      "cdc_topics": [
+        "Uninsured for more than one year among adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "unmet_need_for_health_care_due_to_cost": {
+      "user_keywords": [
+        "Unmet need for health care due to cost:",
+        "unmet need for health care due to cost"
+      ],
+      "cdc_topics": [
+        "Unmet need for health care due to cost:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "untreated_dental_caries_in_permanent_teeth_in_adults": {
+      "user_keywords": [
+        "Untreated dental caries in permanent teeth in adults",
+        "untreated dental caries in permanent teeth in adults"
+      ],
+      "cdc_topics": [
+        "Untreated dental caries in permanent teeth in adults"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "untreated_dental_caries_in_permanent_teeth_in_children": {
+      "user_keywords": [
+        "Untreated dental caries in permanent teeth in children",
+        "untreated dental caries in permanent teeth in children"
+      ],
+      "cdc_topics": [
+        "Untreated dental caries in permanent teeth in children"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "untreated_dental_caries_in_primary_teeth": {
+      "user_keywords": [
+        "Untreated dental caries in primary teeth",
+        "untreated dental caries in primary teeth"
+      ],
+      "cdc_topics": [
+        "Untreated dental caries in primary teeth"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "urgent_care_center_or_retail_health_clinic_visit_among_adults": {
+      "user_keywords": [
+        "Urgent care center or retail health clinic visit among adults:",
+        "urgent care center or retail health clinic visit among adults"
+      ],
+      "cdc_topics": [
+        "Urgent care center or retail health clinic visit among adults:"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "vitamin_d_intake": {
+      "user_keywords": [
+        "Vitamin D intake",
+        "vitamin d intake"
+      ],
+      "cdc_topics": [
+        "Vitamin D intake"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "well_child_check-up": {
+      "user_keywords": [
+        "Well child check-up",
+        "well child check-up"
+      ],
+      "cdc_topics": [
+        "Well child check-up"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    },
+    "wellness_visit": {
+      "user_keywords": [
+        "Wellness visit",
+        "wellness visit"
+      ],
+      "cdc_topics": [
+        "Wellness visit"
+      ],
+      "preferred_datasets": [],
+      "confidence": 0.9,
+      "category": "auto"
+    }
+  },
+  "demographic_mappings": {
+    "age": {
+      "age_group": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Age group",
+          "age group"
+        ],
+        "cdc_groups": [
+          "Age group"
+        ],
+        "cdc_subgroups": [
+          "0-17 years",
+          "0-4 years",
+          "1-4 years",
+          "10-14 years",
+          "12-17 years",
+          "12-19 years",
+          "15-19 years",
+          "15-24 years",
+          "18-24 years",
+          "18-44 years",
+          "18-64 years",
+          "19-25 years",
+          "2-17 years",
+          "2-18 years",
+          "2-19 years",
+          "2-4 years",
+          "2-5 years",
+          "20 years and older",
+          "20-24 years",
+          "20-29 years",
+          "25-34 years",
+          "25-44 years",
+          "3-4 years",
+          "30-39 years",
+          "35-44 years",
+          "40-49 years",
+          "45-54 years",
+          "45-64 years",
+          "5-11 years",
+          "5-14 years",
+          "50-59 years",
+          "55-64 years",
+          "6 months-4 years",
+          "6-11 years",
+          "6-17 years",
+          "6-18 years",
+          "60-69 years",
+          "65 years and older",
+          "65-74 years",
+          "70 years and older",
+          "75 years and older",
+          "75-84 years",
+          "85 years and older",
+          "Younger than 1 year",
+          "Younger than 15 years",
+          "Younger than 18 years",
+          "Younger than 19 years",
+          "Younger than 6 years"
+        ],
+        "confidence": 0.9
+      },
+      "age_groups_with_65_years_and_older": {
+        "user_regex": [],
+        "user_keywords": [
+          "Age groups with 65 years and older",
+          "age groups with 65 years and older",
+          "age groups 65+",
+          "age breakdown with 65 and older",
+          "age groups including 65+"
+        ],
+        "cdc_groups": [
+          "Age groups with 65 years and older"
+        ],
+        "cdc_subgroups": [
+          "18-34 years",
+          "35-49 years",
+          "50-64 years",
+          "65 years and older",
+          "65 years and over"
+        ],
+        "confidence": 0.95
+      },
+      "age_groups_with_75_years_and_older": {
+        "user_regex": [],
+        "user_keywords": [
+          "Age groups with 75 years and older",
+          "age groups with 75 years and older", 
+          "age groups 75+",
+          "age breakdown with 75 and older",
+          "age groups including 75+"
+        ],
+        "cdc_groups": [
+          "Age groups with 75 years and older"
+        ],
+        "cdc_subgroups": [
+          "18-44 years",
+          "45-64 years",
+          "65-74 years",
+          "75 years and older",
+          "75 years and over"
+        ],
+        "confidence": 0.95
+      },
+      "age_group_and_poverty_level": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Age group and poverty level",
+          "age group and poverty level"
+        ],
+        "cdc_groups": [
+          "Age group and poverty level"
+        ],
+        "cdc_subgroups": [
+          "12-19 years: 100% to <200% FPL",
+          "12-19 years: 200% to <400% FPL",
+          "12-19 years: <100% FPL",
+          "12-19 years: â‰¥400% FPL",
+          "18-64 years: 100% to <134% FPL",
+          "18-64 years: 100% to <200% FPL",
+          "18-64 years: 134% to <200% FPL",
+          "18-64 years: 200% to <400% FPL",
+          "18-64 years: <100% FPL",
+          "18-64 years: â‰¥400% FPL",
+          "2-19 years: 100% to <200% FPL",
+          "2-19 years: 200% to <400% FPL",
+          "2-19 years: <100% FPL",
+          "2-19 years: â‰¥400% FPL",
+          "2-5 years: 100% to <200% FPL",
+          "2-5 years: 200% to <400% FPL",
+          "2-5 years: <100% FPL",
+          "2-5 years: â‰¥400% FPL",
+          "6-11 years: 100% to <200% FPL",
+          "6-11 years: 200% to <400% FPL",
+          "6-11 years: <100% FPL",
+          "6-11 years: â‰¥400% FPL",
+          "Younger than 18 years: 100% to <134% FPL",
+          "Younger than 18 years: 100% to <200% FPL",
+          "Younger than 18 years: 134% to <200% FPL",
+          "Younger than 18 years: 200% to <400% FPL",
+          "Younger than 18 years: <100% FPL",
+          "Younger than 18 years: â‰¥400% FPL",
+          "Younger than 19 years: 100% to <134% FPL",
+          "Younger than 19 years: 100% to <200% FPL",
+          "Younger than 19 years: 134% to <200% FPL",
+          "Younger than 19 years: 200% to <400% FPL",
+          "Younger than 19 years: <100% FPL",
+          "Younger than 19 years: â‰¥400% FPL",
+          "Younger than 65 years: 100% to <134% FPL",
+          "Younger than 65 years: 100% to <200% FPL",
+          "Younger than 65 years: 134% to <200% FPL",
+          "Younger than 65 years: 200% to <400% FPL",
+          "Younger than 65 years: <100% FPL",
+          "Younger than 65 years: â‰¥400% FPL"
+        ],
+        "confidence": 0.9
+      },
+      "age_group_and_race_and_hispanic_origin": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Age group and race and Hispanic origin",
+          "age group and race and hispanic origin"
+        ],
+        "cdc_groups": [
+          "Age group and race and Hispanic origin"
+        ],
+        "cdc_subgroups": [
+          "12-19 years: All races, Hispanic",
+          "12-19 years: All races, Hispanic, Mexican",
+          "12-19 years: Asian only, non-Hispanic",
+          "12-19 years: Black only, non-Hispanic",
+          "12-19 years: White only, non-Hispanic",
+          "2-19 years: All races, Hispanic",
+          "2-19 years: All races, Hispanic, Mexican",
+          "2-19 years: Asian only, non-Hispanic",
+          "2-19 years: Black only, non-Hispanic",
+          "2-19 years: White only, non-Hispanic",
+          "2-5 years: All races, Hispanic",
+          "2-5 years: All races, Hispanic, Mexican",
+          "2-5 years: Asian only, non-Hispanic",
+          "2-5 years: Black only, non-Hispanic",
+          "2-5 years: White only, non-Hispanic",
+          "6-11 years: All races, Hispanic",
+          "6-11 years: All races, Hispanic, Mexican",
+          "6-11 years: Asian only, non-Hispanic",
+          "6-11 years: Black only, non-Hispanic",
+          "6-11 years: White only, non-Hispanic"
+        ],
+        "confidence": 0.9
+      },
+      "education_for_age_group_25-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Education for age group 25-64 years",
+          "education for age group 25-64 years"
+        ],
+        "cdc_groups": [
+          "Education for age group 25-64 years"
+        ],
+        "cdc_subgroups": [
+          "High school diploma or GED",
+          "No high school diploma or GED",
+          "Some college or more"
+        ],
+        "confidence": 0.9
+      },
+      "health_insurance_coverage": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Health insurance coverage",
+          "health insurance coverage"
+        ],
+        "cdc_groups": [
+          "Health insurance coverage"
+        ],
+        "cdc_subgroups": [
+          "Medicaid or other state programs",
+          "Other government coverage",
+          "Private",
+          "Uninsured"
+        ],
+        "confidence": 0.9
+      },
+      "health_insurance_coverage_65_years_and_older": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Health insurance coverage: 65 years and older",
+          "health insurance coverage  65 years and older"
+        ],
+        "cdc_groups": [
+          "Health insurance coverage: 65 years and older"
+        ],
+        "cdc_subgroups": [
+          "Medicare Advantage",
+          "Medicare and Medicaid",
+          "Medicare only excluding Medicare Advantage",
+          "Other government coverage",
+          "Private",
+          "Uninsured"
+        ],
+        "confidence": 0.9
+      },
+      "health_insurance_coverage_younger_than_65_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Health insurance coverage: Younger than 65 years",
+          "health insurance coverage  younger than 65 years"
+        ],
+        "cdc_groups": [
+          "Health insurance coverage: Younger than 65 years"
+        ],
+        "cdc_subgroups": [
+          "Medicaid or other state programs",
+          "Other government coverage",
+          "Private",
+          "Uninsured"
+        ],
+        "confidence": 0.9
+      },
+      "health_insurance_status_at_the_time_of_interview_for_age_group_18-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Health insurance status at the time of interview for age group 18-64 years",
+          "health insurance status at the time of interview for age group 18-64 years"
+        ],
+        "cdc_groups": [
+          "Health insurance status at the time of interview for age group 18-64 years"
+        ],
+        "cdc_subgroups": [
+          "Insured",
+          "Insured, Medicaid",
+          "Insured, private",
+          "Uninsured"
+        ],
+        "confidence": 0.9
+      },
+      "level_of_difficulty_for_age_group_18-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Level of difficulty for age group 18-64 years",
+          "level of difficulty for age group 18-64 years"
+        ],
+        "cdc_groups": [
+          "Level of difficulty for age group 18-64 years"
+        ],
+        "cdc_subgroups": [
+          "A lot of difficulty or cannot do at all",
+          "No difficulty",
+          "Some difficulty"
+        ],
+        "confidence": 0.9
+      },
+      "metropolitan_statistical_area_for_age_group_18-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Metropolitan statistical area for age group 18-64 years",
+          "metropolitan statistical area for age group 18-64 years"
+        ],
+        "cdc_groups": [
+          "Metropolitan statistical area for age group 18-64 years"
+        ],
+        "cdc_subgroups": [
+          "MSA",
+          "Non-MSA"
+        ],
+        "confidence": 0.9
+      },
+      "poverty_level_for_age_group_18-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Poverty level for age group 18-64 years",
+          "poverty level for age group 18-64 years"
+        ],
+        "cdc_groups": [
+          "Poverty level for age group 18-64 years"
+        ],
+        "cdc_subgroups": [
+          "100% to <200% FPL",
+          "200% to <400% FPL",
+          "<100% FPL",
+          "â‰¥400% FPL"
+        ],
+        "confidence": 0.9
+      },
+      "race_and_hispanic_origin_and_age_group": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Race and Hispanic origin and age group",
+          "race and hispanic origin and age group"
+        ],
+        "cdc_groups": [
+          "Race and Hispanic origin and age group"
+        ],
+        "cdc_subgroups": [
+          "All races, Hispanic, Mexican: 2-19 years",
+          "All races, Hispanic, Mexican: 20 years and older",
+          "All races, Hispanic: 2-19 years",
+          "All races, Hispanic: 20 years and older",
+          "Asian only, non-Hispanic: 2-19 years",
+          "Asian only, non-Hispanic: 20 years and older",
+          "Black only, non-Hispanic: 2-19 years",
+          "Black only, non-Hispanic: 20 years and older",
+          "White only, non-Hispanic: 2-19 years",
+          "White only, non-Hispanic: 20 years and older"
+        ],
+        "confidence": 0.9
+      },
+      "race_and_hispanic_origin_and_poverty_level_for_age_group_18-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Race and Hispanic origin and poverty level for age group 18-64 years",
+          "race and hispanic origin and poverty level for age group 18-64 years"
+        ],
+        "cdc_groups": [
+          "Race and Hispanic origin and poverty level for age group 18-64 years"
+        ],
+        "cdc_subgroups": [
+          "All races, Hispanic: 100% to <200% FPL",
+          "All races, Hispanic: 200% to <400% FPL",
+          "All races, Hispanic: <100% FPL",
+          "All races, Hispanic: â‰¥400% FPL",
+          "Black only, non-Hispanic: 100% to <200% FPL",
+          "Black only, non-Hispanic: 200% to <400% FPL",
+          "Black only, non-Hispanic: <100% FPL",
+          "Black only, non-Hispanic: â‰¥400% FPL",
+          "White only, non-Hispanic: 100% to <200% FPL",
+          "White only, non-Hispanic: 200% to <400% FPL",
+          "White only, non-Hispanic: <100% FPL",
+          "White only, non-Hispanic: â‰¥400% FPL"
+        ],
+        "confidence": 0.9
+      },
+      "race_and_hispanic_origin_for_age_group_18-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Race and Hispanic origin for age group 18-64 years",
+          "race and hispanic origin for age group 18-64 years"
+        ],
+        "cdc_groups": [
+          "Race and Hispanic origin for age group 18-64 years"
+        ],
+        "cdc_subgroups": [
+          "All races, Hispanic",
+          "All races, Hispanic, Mexican",
+          "All races, non-Hispanic",
+          "Black only, non-Hispanic",
+          "White only, non-Hispanic"
+        ],
+        "confidence": 0.9
+      },
+      "race_for_age_group_18-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Race for age group 18-64 years",
+          "race for age group 18-64 years"
+        ],
+        "cdc_groups": [
+          "Race for age group 18-64 years"
+        ],
+        "cdc_subgroups": [
+          "American Indian and Alaska Native only",
+          "Asian only",
+          "Black only",
+          "Native Hawaiian or Other Pacific Islander only",
+          "Two or more races",
+          "White only"
+        ],
+        "confidence": 0.9
+      },
+      "region_for_age_group_18-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "age",
+          "adults",
+          "children",
+          "elderly",
+          "seniors",
+          "65+",
+          "18+",
+          "Region for age group 18-64 years",
+          "region for age group 18-64 years"
+        ],
+        "cdc_groups": [
+          "Region for age group 18-64 years"
+        ],
+        "cdc_subgroups": [
+          "Midwest",
+          "Northeast",
+          "South",
+          "West"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "sex": {
+      "age_group_and_sex": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Age group and sex",
+          "age group and sex"
+        ],
+        "cdc_groups": [
+          "Age group and sex"
+        ],
+        "cdc_subgroups": [
+          "12-19 years: Female",
+          "12-19 years: Male",
+          "2-19 years: Female",
+          "2-19 years: Male",
+          "2-5 years: Female",
+          "2-5 years: Male",
+          "6-11 years: Female",
+          "6-11 years: Male"
+        ],
+        "confidence": 0.9
+      },
+      "age_group_and_sex_and_race_and_hispanic_origin": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Age group and sex and race and Hispanic origin",
+          "age group and sex and race and hispanic origin"
+        ],
+        "cdc_groups": [
+          "Age group and sex and race and Hispanic origin"
+        ],
+        "cdc_subgroups": [
+          "12-19 years: Female: All races, Hispanic",
+          "12-19 years: Female: All races, Hispanic, Mexican",
+          "12-19 years: Female: Asian only, non-Hispanic",
+          "12-19 years: Female: Black only, non-Hispanic",
+          "12-19 years: Female: White only, non-Hispanic",
+          "12-19 years: Male: All races, Hispanic",
+          "12-19 years: Male: All races, Hispanic, Mexican",
+          "12-19 years: Male: Asian only, non-Hispanic",
+          "12-19 years: Male: Black only, non-Hispanic",
+          "12-19 years: Male: White only, non-Hispanic",
+          "2-19 years: Female: All races, Hispanic",
+          "2-19 years: Female: All races, Hispanic, Mexican",
+          "2-19 years: Female: Asian only, non-Hispanic",
+          "2-19 years: Female: Black only, non-Hispanic",
+          "2-19 years: Female: White only, non-Hispanic",
+          "2-19 years: Male: All races, Hispanic",
+          "2-19 years: Male: All races, Hispanic, Mexican",
+          "2-19 years: Male: Asian only, non-Hispanic",
+          "2-19 years: Male: Black only, non-Hispanic",
+          "2-19 years: Male: White only, non-Hispanic",
+          "2-5 years: Female: All races, Hispanic",
+          "2-5 years: Female: All races, Hispanic, Mexican",
+          "2-5 years: Female: Asian only, non-Hispanic",
+          "2-5 years: Female: Black only, non-Hispanic",
+          "2-5 years: Female: White only, non-Hispanic",
+          "2-5 years: Male: All races, Hispanic",
+          "2-5 years: Male: All races, Hispanic, Mexican",
+          "2-5 years: Male: Asian only, non-Hispanic",
+          "2-5 years: Male: Black only, non-Hispanic",
+          "2-5 years: Male: White only, non-Hispanic",
+          "6-11 years: Female: All races, Hispanic",
+          "6-11 years: Female: All races, Hispanic, Mexican",
+          "6-11 years: Female: Asian only, non-Hispanic",
+          "6-11 years: Female: Black only, non-Hispanic",
+          "6-11 years: Female: White only, non-Hispanic",
+          "6-11 years: Male: All races, Hispanic",
+          "6-11 years: Male: All races, Hispanic, Mexican",
+          "6-11 years: Male: Asian only, non-Hispanic",
+          "6-11 years: Male: Black only, non-Hispanic",
+          "6-11 years: Male: White only, non-Hispanic"
+        ],
+        "confidence": 0.9
+      },
+      "sex": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex",
+          "sex"
+        ],
+        "cdc_groups": [
+          "Sex"
+        ],
+        "cdc_subgroups": [
+          "Female",
+          "Male"
+        ],
+        "confidence": 0.9
+      },
+      "sex_and_age_group": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex and age group",
+          "sex and age group"
+        ],
+        "cdc_groups": [
+          "Sex and age group"
+        ],
+        "cdc_subgroups": [
+          "Female: 1-4 years",
+          "Female: 10-14 years",
+          "Female: 12-19 years",
+          "Female: 15-19 years",
+          "Female: 15-24 years",
+          "Female: 18-44 years",
+          "Female: 2-19 years",
+          "Female: 2-5 years",
+          "Female: 20 years and older",
+          "Female: 20-24 years",
+          "Female: 20-29 years",
+          "Female: 25-34 years",
+          "Female: 25-44 years",
+          "Female: 30-39 years",
+          "Female: 35-44 years",
+          "Female: 40-49 years",
+          "Female: 45-54 years",
+          "Female: 45-64 years",
+          "Female: 5-14 years",
+          "Female: 50-59 years",
+          "Female: 55-64 years",
+          "Female: 6-11 years",
+          "Female: 60-69 years",
+          "Female: 65 years and older",
+          "Female: 65-74 years",
+          "Female: 70 years and older",
+          "Female: 75 years and older",
+          "Female: 75-84 years",
+          "Female: 85 years and older",
+          "Female: Younger than 1 year",
+          "Female: Younger than 15 years",
+          "Female: Younger than 18 years",
+          "Male: 1-4 years",
+          "Male: 10-14 years",
+          "Male: 12-19 years",
+          "Male: 15-19 years",
+          "Male: 15-24 years",
+          "Male: 18-44 years",
+          "Male: 2-19 years",
+          "Male: 2-5 years",
+          "Male: 20 years and older",
+          "Male: 20-24 years",
+          "Male: 20-29 years",
+          "Male: 25-34 years",
+          "Male: 25-44 years",
+          "Male: 30-39 years",
+          "Male: 35-44 years",
+          "Male: 40-49 years",
+          "Male: 45-54 years",
+          "Male: 45-64 years",
+          "Male: 5-14 years",
+          "Male: 50-59 years",
+          "Male: 55-64 years",
+          "Male: 6-11 years",
+          "Male: 60-69 years",
+          "Male: 65 years and older",
+          "Male: 65-74 years",
+          "Male: 70 years and older",
+          "Male: 75 years and older",
+          "Male: 75-84 years",
+          "Male: 85 years and older",
+          "Male: Younger than 1 year",
+          "Male: Younger than 15 years",
+          "Male: Younger than 18 years"
+        ],
+        "confidence": 0.9
+      },
+      "sex_and_marital_status_for_age_group_14-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex and marital status for age group 14-64 years",
+          "sex and marital status for age group 14-64 years"
+        ],
+        "cdc_groups": [
+          "Sex and marital status for age group 14-64 years"
+        ],
+        "cdc_subgroups": [
+          "Female: Divorced, separated, widowed",
+          "Female: Married",
+          "Female: Never married",
+          "Male: Divorced, separated, widowed",
+          "Male: Married",
+          "Male: Never married"
+        ],
+        "confidence": 0.9
+      },
+      "sex_and_marital_status_for_age_group_18-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex and marital status for age group 18-64 years",
+          "sex and marital status for age group 18-64 years"
+        ],
+        "cdc_groups": [
+          "Sex and marital status for age group 18-64 years"
+        ],
+        "cdc_subgroups": [
+          "Female: Divorced, separated, widowed",
+          "Female: Married",
+          "Female: Never married",
+          "Male: Divorced, separated, widowed",
+          "Male: Married",
+          "Male: Never married"
+        ],
+        "confidence": 0.9
+      },
+      "sex_and_race": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex and race",
+          "sex and race"
+        ],
+        "cdc_groups": [
+          "Sex and race"
+        ],
+        "cdc_subgroups": [
+          "Female: American Indian and Alaska Native",
+          "Female: Asian or Pacific Islander",
+          "Female: Black",
+          "Female: White",
+          "Male: American Indian and Alaska Native",
+          "Male: Asian or Pacific Islander",
+          "Male: Black",
+          "Male: White"
+        ],
+        "confidence": 0.9
+      },
+      "sex_and_race_single_race": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex and race (single race)",
+          "sex and race  single race"
+        ],
+        "cdc_groups": [
+          "Sex and race (single race)"
+        ],
+        "cdc_subgroups": [
+          "Female: American Indian and Alaska Native only",
+          "Female: Asian only",
+          "Female: Black only",
+          "Female: Native Hawaiian or Other Pacific Islander only",
+          "Female: White only",
+          "Male: American Indian and Alaska Native only",
+          "Male: Asian only",
+          "Male: Black only",
+          "Male: Native Hawaiian or Other Pacific Islander only",
+          "Male: White only"
+        ],
+        "confidence": 0.9
+      },
+      "sex_and_race_and_hispanic_origin": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex and race and Hispanic origin",
+          "sex and race and hispanic origin"
+        ],
+        "cdc_groups": [
+          "Sex and race and Hispanic origin"
+        ],
+        "cdc_subgroups": [
+          "Female: All races, Hispanic",
+          "Female: All races, Hispanic, Mexican",
+          "Female: American Indian and Alaska Native, non-Hispanic",
+          "Female: Asian only, non-Hispanic",
+          "Female: Asian or Pacific Islander, non-Hispanic",
+          "Female: Black only, non-Hispanic",
+          "Female: Black only. non-Hispanic",
+          "Female: Black, non-Hispanic",
+          "Female: White only, non-Hispanic",
+          "Female: White, non-Hispanic",
+          "Male: All races, Hispanic",
+          "Male: All races, Hispanic, Mexican",
+          "Male: American Indian and Alaska Native, non-Hispanic",
+          "Male: Asian only, non-Hispanic",
+          "Male: Asian or Pacific Islander, non-Hispanic",
+          "Male: Black only, non-Hispanic",
+          "Male: Black, non-Hispanic",
+          "Male: White only, non-Hispanic",
+          "Male: White, non-Hispanic"
+        ],
+        "confidence": 0.9
+      },
+      "sex_and_race_and_hispanic_origin_single_race": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex and race and Hispanic origin (single race)",
+          "sex and race and hispanic origin  single race"
+        ],
+        "cdc_groups": [
+          "Sex and race and Hispanic origin (single race)"
+        ],
+        "cdc_subgroups": [
+          "Female: All races, Hispanic",
+          "Female: American Indian and Alaska Native only, non-Hispanic",
+          "Female: Asian only, non-Hispanic",
+          "Female: Black only, non-Hispanic",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic",
+          "Female: White only, non-Hispanic",
+          "Male: All races, Hispanic",
+          "Male: American Indian and Alaska Native only, non-Hispanic",
+          "Male: Asian only, non-Hispanic",
+          "Male: Black only, non-Hispanic",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic",
+          "Male: White only, non-Hispanic"
+        ],
+        "confidence": 0.9
+      },
+      "sex_for_age_group_18-64_years": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex for age group 18-64 years",
+          "sex for age group 18-64 years"
+        ],
+        "cdc_groups": [
+          "Sex for age group 18-64 years"
+        ],
+        "cdc_subgroups": [
+          "Female",
+          "Male"
+        ],
+        "confidence": 0.9
+      },
+      "sex_race_single_race_and_age_group": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex, race (single race), and age group",
+          "sex  race  single race   and age group"
+        ],
+        "cdc_groups": [
+          "Sex, race (single race), and age group"
+        ],
+        "cdc_subgroups": [
+          "Female: American Indian and Alaska Native only: 15-24 years",
+          "Female: American Indian and Alaska Native only: 25-34 years",
+          "Female: American Indian and Alaska Native only: 25-44 years",
+          "Female: American Indian and Alaska Native only: 35-44 years",
+          "Female: American Indian and Alaska Native only: 45-54 years",
+          "Female: American Indian and Alaska Native only: 45-64 years",
+          "Female: American Indian and Alaska Native only: 55-64 years",
+          "Female: American Indian and Alaska Native only: 65 years and older",
+          "Female: American Indian and Alaska Native only: 65-74 years",
+          "Female: American Indian and Alaska Native only: 75-84 years",
+          "Female: American Indian and Alaska Native only: 85 years and older",
+          "Female: Asian only: 15-24 years",
+          "Female: Asian only: 25-34 years",
+          "Female: Asian only: 25-44 years",
+          "Female: Asian only: 35-44 years",
+          "Female: Asian only: 45-54 years",
+          "Female: Asian only: 45-64 years",
+          "Female: Asian only: 55-64 years",
+          "Female: Asian only: 65 years and older",
+          "Female: Asian only: 65-74 years",
+          "Female: Asian only: 75-84 years",
+          "Female: Asian only: 85 years and older",
+          "Female: Black only: 15-24 years",
+          "Female: Black only: 25-34 years",
+          "Female: Black only: 25-44 years",
+          "Female: Black only: 35-44 years",
+          "Female: Black only: 45-54 years",
+          "Female: Black only: 45-64 years",
+          "Female: Black only: 55-64 years",
+          "Female: Black only: 65 years and older",
+          "Female: Black only: 65-74 years",
+          "Female: Black only: 75-84 years",
+          "Female: Black only: 85 years and older",
+          "Female: Native Hawaiian or Other Pacific Islander only: 15-24 years",
+          "Female: Native Hawaiian or Other Pacific Islander only: 25-34 years",
+          "Female: Native Hawaiian or Other Pacific Islander only: 25-44 years",
+          "Female: Native Hawaiian or Other Pacific Islander only: 35-44 years",
+          "Female: Native Hawaiian or Other Pacific Islander only: 45-54 years",
+          "Female: Native Hawaiian or Other Pacific Islander only: 45-64 years",
+          "Female: Native Hawaiian or Other Pacific Islander only: 55-64 years",
+          "Female: Native Hawaiian or Other Pacific Islander only: 65 years and older",
+          "Female: Native Hawaiian or Other Pacific Islander only: 65-74 years",
+          "Female: Native Hawaiian or Other Pacific Islander only: 75-84 years",
+          "Female: Native Hawaiian or Other Pacific Islander only: 85 years and older",
+          "Female: White only: 15-24 years",
+          "Female: White only: 25-34 years",
+          "Female: White only: 25-44 years",
+          "Female: White only: 35-44 years",
+          "Female: White only: 45-54 years",
+          "Female: White only: 45-64 years",
+          "Female: White only: 55-64 years",
+          "Female: White only: 65 years and older",
+          "Female: White only: 65-74 years",
+          "Female: White only: 75-84 years",
+          "Female: White only: 85 years and older",
+          "Male: American Indian and Alaska Native only: 15-24 years",
+          "Male: American Indian and Alaska Native only: 25-34 years",
+          "Male: American Indian and Alaska Native only: 25-44 years",
+          "Male: American Indian and Alaska Native only: 35-44 years",
+          "Male: American Indian and Alaska Native only: 45-54 years",
+          "Male: American Indian and Alaska Native only: 45-64 years",
+          "Male: American Indian and Alaska Native only: 55-64 years",
+          "Male: American Indian and Alaska Native only: 65 years and older",
+          "Male: American Indian and Alaska Native only: 65-74 years",
+          "Male: American Indian and Alaska Native only: 75-84 years",
+          "Male: American Indian and Alaska Native only: 85 years and older",
+          "Male: Asian only: 15-24 years",
+          "Male: Asian only: 25-34 years",
+          "Male: Asian only: 25-44 years",
+          "Male: Asian only: 35-44 years",
+          "Male: Asian only: 45-54 years",
+          "Male: Asian only: 45-64 years",
+          "Male: Asian only: 55-64 years",
+          "Male: Asian only: 65 years and older",
+          "Male: Asian only: 65-74 years",
+          "Male: Asian only: 75-84 years",
+          "Male: Asian only: 85 years and older",
+          "Male: Black only: 15-24 years",
+          "Male: Black only: 25-34 years",
+          "Male: Black only: 25-44 years",
+          "Male: Black only: 35-44 years",
+          "Male: Black only: 45-54 years",
+          "Male: Black only: 45-64 years",
+          "Male: Black only: 55-64 years",
+          "Male: Black only: 65 years and older",
+          "Male: Black only: 65-74 years",
+          "Male: Black only: 75-84 years",
+          "Male: Black only: 85 years and older",
+          "Male: Native Hawaiian or Other Pacific Islander only: 15-24 years",
+          "Male: Native Hawaiian or Other Pacific Islander only: 25-34 years",
+          "Male: Native Hawaiian or Other Pacific Islander only: 25-44 years",
+          "Male: Native Hawaiian or Other Pacific Islander only: 35-44 years",
+          "Male: Native Hawaiian or Other Pacific Islander only: 45-54 years",
+          "Male: Native Hawaiian or Other Pacific Islander only: 45-64 years",
+          "Male: Native Hawaiian or Other Pacific Islander only: 55-64 years",
+          "Male: Native Hawaiian or Other Pacific Islander only: 65 years and older",
+          "Male: Native Hawaiian or Other Pacific Islander only: 65-74 years",
+          "Male: Native Hawaiian or Other Pacific Islander only: 75-84 years",
+          "Male: Native Hawaiian or Other Pacific Islander only: 85 years and older",
+          "Male: White only: 15-24 years",
+          "Male: White only: 25-34 years",
+          "Male: White only: 25-44 years",
+          "Male: White only: 35-44 years",
+          "Male: White only: 45-54 years",
+          "Male: White only: 45-64 years",
+          "Male: White only: 55-64 years",
+          "Male: White only: 65 years and older",
+          "Male: White only: 65-74 years",
+          "Male: White only: 75-84 years",
+          "Male: White only: 85 years and older"
+        ],
+        "confidence": 0.9
+      },
+      "sex_race_and_hispanic_origin_single_race_and_age_group": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex, race and Hispanic origin (single race), and age group",
+          "sex  race and hispanic origin  single race   and age group"
+        ],
+        "cdc_groups": [
+          "Sex, race and Hispanic origin (single race), and age group"
+        ],
+        "cdc_subgroups": [
+          "Female: All races, Hispanic: 15-24 years",
+          "Female: All races, Hispanic: 25-34 years",
+          "Female: All races, Hispanic: 25-44 years",
+          "Female: All races, Hispanic: 35-44 years",
+          "Female: All races, Hispanic: 45-54 years",
+          "Female: All races, Hispanic: 45-64 years",
+          "Female: All races, Hispanic: 55-64 years",
+          "Female: All races, Hispanic: 65 years and older",
+          "Female: All races, Hispanic: 65-74 years",
+          "Female: All races, Hispanic: 75-84 years",
+          "Female: All races, Hispanic: 85 years and older",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 15-24 years",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 25-34 years",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 25-44 years",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 35-44 years",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 45-54 years",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 45-64 years",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 55-64 years",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 65 years and older",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 65-74 years",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 75-84 years",
+          "Female: American Indian and Alaska Native only, non-Hispanic: 85 years and older",
+          "Female: Asian only, non-Hispanic: 15-24 years",
+          "Female: Asian only, non-Hispanic: 25-34 years",
+          "Female: Asian only, non-Hispanic: 25-44 years",
+          "Female: Asian only, non-Hispanic: 35-44 years",
+          "Female: Asian only, non-Hispanic: 45-54 years",
+          "Female: Asian only, non-Hispanic: 45-64 years",
+          "Female: Asian only, non-Hispanic: 55-64 years",
+          "Female: Asian only, non-Hispanic: 65 years and older",
+          "Female: Asian only, non-Hispanic: 65-74 years",
+          "Female: Asian only, non-Hispanic: 75-84 years",
+          "Female: Asian only, non-Hispanic: 85 years and older",
+          "Female: Black only, non-Hispanic: 15-24 years",
+          "Female: Black only, non-Hispanic: 25-34 years",
+          "Female: Black only, non-Hispanic: 25-44 years",
+          "Female: Black only, non-Hispanic: 35-44 years",
+          "Female: Black only, non-Hispanic: 45-54 years",
+          "Female: Black only, non-Hispanic: 45-64 years",
+          "Female: Black only, non-Hispanic: 55-64 years",
+          "Female: Black only, non-Hispanic: 65 years and older",
+          "Female: Black only, non-Hispanic: 65-74 years",
+          "Female: Black only, non-Hispanic: 75-84 years",
+          "Female: Black only, non-Hispanic: 85 years and older",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 15-24 years",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 25-34 years",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 25-44 years",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 35-44 years",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 45-54 years",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 45-64 years",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 55-64 years",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 65 years and older",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 65-74 years",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 75-84 years",
+          "Female: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 85 years and older",
+          "Female: White only, non-Hispanic: 15-24 years",
+          "Female: White only, non-Hispanic: 25-34 years",
+          "Female: White only, non-Hispanic: 25-44 years",
+          "Female: White only, non-Hispanic: 35-44 years",
+          "Female: White only, non-Hispanic: 45-54 years",
+          "Female: White only, non-Hispanic: 45-64 years",
+          "Female: White only, non-Hispanic: 55-64 years",
+          "Female: White only, non-Hispanic: 65 years and older",
+          "Female: White only, non-Hispanic: 65-74 years",
+          "Female: White only, non-Hispanic: 75-84 years",
+          "Female: White only, non-Hispanic: 85 years and older",
+          "Male: All races, Hispanic: 15-24 years",
+          "Male: All races, Hispanic: 25-34 years",
+          "Male: All races, Hispanic: 25-44 years",
+          "Male: All races, Hispanic: 35-44 years",
+          "Male: All races, Hispanic: 45-54 years",
+          "Male: All races, Hispanic: 45-64 years",
+          "Male: All races, Hispanic: 55-64 years",
+          "Male: All races, Hispanic: 65 years and older",
+          "Male: All races, Hispanic: 65-74 years",
+          "Male: All races, Hispanic: 75-84 years",
+          "Male: All races, Hispanic: 85 years and older",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 15-24 years",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 25-34 years",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 25-44 years",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 35-44 years",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 45-54 years",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 45-64 years",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 55-64 years",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 65 years and older",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 65-74 years",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 75-84 years",
+          "Male: American Indian and Alaska Native only, non-Hispanic: 85 years and older",
+          "Male: Asian only, non-Hispanic: 15-24 years",
+          "Male: Asian only, non-Hispanic: 25-34 years",
+          "Male: Asian only, non-Hispanic: 25-44 years",
+          "Male: Asian only, non-Hispanic: 35-44 years",
+          "Male: Asian only, non-Hispanic: 45-54 years",
+          "Male: Asian only, non-Hispanic: 45-64 years",
+          "Male: Asian only, non-Hispanic: 55-64 years",
+          "Male: Asian only, non-Hispanic: 65 years and older",
+          "Male: Asian only, non-Hispanic: 65-74 years",
+          "Male: Asian only, non-Hispanic: 75-84 years",
+          "Male: Asian only, non-Hispanic: 85 years and older",
+          "Male: Black only, non-Hispanic: 15-24 years",
+          "Male: Black only, non-Hispanic: 25-34 years",
+          "Male: Black only, non-Hispanic: 25-44 years",
+          "Male: Black only, non-Hispanic: 35-44 years",
+          "Male: Black only, non-Hispanic: 45-54 years",
+          "Male: Black only, non-Hispanic: 45-64 years",
+          "Male: Black only, non-Hispanic: 55-64 years",
+          "Male: Black only, non-Hispanic: 65 years and older",
+          "Male: Black only, non-Hispanic: 65-74 years",
+          "Male: Black only, non-Hispanic: 75-84 years",
+          "Male: Black only, non-Hispanic: 85 years and older",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 15-24 years",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 25-34 years",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 25-44 years",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 35-44 years",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 45-54 years",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 45-64 years",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 55-64 years",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 65 years and older",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 65-74 years",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 75-84 years",
+          "Male: Native Hawaiian or Other Pacific Islander only, non-Hispanic: 85 years and older",
+          "Male: White only, non-Hispanic: 15-24 years",
+          "Male: White only, non-Hispanic: 25-34 years",
+          "Male: White only, non-Hispanic: 25-44 years",
+          "Male: White only, non-Hispanic: 35-44 years",
+          "Male: White only, non-Hispanic: 45-54 years",
+          "Male: White only, non-Hispanic: 45-64 years",
+          "Male: White only, non-Hispanic: 55-64 years",
+          "Male: White only, non-Hispanic: 65 years and older",
+          "Male: White only, non-Hispanic: 65-74 years",
+          "Male: White only, non-Hispanic: 75-84 years",
+          "Male: White only, non-Hispanic: 85 years and older"
+        ],
+        "confidence": 0.9
+      },
+      "sex_race_and_hispanic_origin_and_age_group": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex, race and Hispanic origin, and age group",
+          "sex  race and hispanic origin  and age group"
+        ],
+        "cdc_groups": [
+          "Sex, race and Hispanic origin, and age group"
+        ],
+        "cdc_subgroups": [
+          "Female: All races, Hispanic: 15-24 years",
+          "Female: All races, Hispanic: 25-34 years",
+          "Female: All races, Hispanic: 25-44 years",
+          "Female: All races, Hispanic: 35-44 years",
+          "Female: All races, Hispanic: 45-54 years",
+          "Female: All races, Hispanic: 45-64 years",
+          "Female: All races, Hispanic: 55-64 years",
+          "Female: All races, Hispanic: 65 years and older",
+          "Female: All races, Hispanic: 65-74 years",
+          "Female: All races, Hispanic: 75-84 years",
+          "Female: All races, Hispanic: 85 years and older",
+          "Female: American Indian and Alaska Native, non-Hispanic: 15-24 years",
+          "Female: American Indian and Alaska Native, non-Hispanic: 25-34 years",
+          "Female: American Indian and Alaska Native, non-Hispanic: 25-44 years",
+          "Female: American Indian and Alaska Native, non-Hispanic: 35-44 years",
+          "Female: American Indian and Alaska Native, non-Hispanic: 45-54 years",
+          "Female: American Indian and Alaska Native, non-Hispanic: 45-64 years",
+          "Female: American Indian and Alaska Native, non-Hispanic: 55-64 years",
+          "Female: American Indian and Alaska Native, non-Hispanic: 65 years and older",
+          "Female: American Indian and Alaska Native, non-Hispanic: 65-74 years",
+          "Female: American Indian and Alaska Native, non-Hispanic: 75-84 years",
+          "Female: American Indian and Alaska Native, non-Hispanic: 85 years and older",
+          "Female: Asian or Pacific Islander, non-Hispanic: 15-24 years",
+          "Female: Asian or Pacific Islander, non-Hispanic: 25-34 years",
+          "Female: Asian or Pacific Islander, non-Hispanic: 25-44 years",
+          "Female: Asian or Pacific Islander, non-Hispanic: 35-44 years",
+          "Female: Asian or Pacific Islander, non-Hispanic: 45-54 years",
+          "Female: Asian or Pacific Islander, non-Hispanic: 45-64 years",
+          "Female: Asian or Pacific Islander, non-Hispanic: 55-64 years",
+          "Female: Asian or Pacific Islander, non-Hispanic: 65 years and older",
+          "Female: Asian or Pacific Islander, non-Hispanic: 65-74 years",
+          "Female: Asian or Pacific Islander, non-Hispanic: 75-84 years",
+          "Female: Asian or Pacific Islander, non-Hispanic: 85 years and older",
+          "Female: Black, non-Hispanic: 15-24 years",
+          "Female: Black, non-Hispanic: 25-34 years",
+          "Female: Black, non-Hispanic: 25-44 years",
+          "Female: Black, non-Hispanic: 35-44 years",
+          "Female: Black, non-Hispanic: 45-54 years",
+          "Female: Black, non-Hispanic: 45-64 years",
+          "Female: Black, non-Hispanic: 55-64 years",
+          "Female: Black, non-Hispanic: 65 years and older",
+          "Female: Black, non-Hispanic: 65-74 years",
+          "Female: Black, non-Hispanic: 75-84 years",
+          "Female: Black, non-Hispanic: 85 years and older",
+          "Female: White, non-Hispanic: 15-24 years",
+          "Female: White, non-Hispanic: 25-34 years",
+          "Female: White, non-Hispanic: 25-44 years",
+          "Female: White, non-Hispanic: 35-44 years",
+          "Female: White, non-Hispanic: 45-54 years",
+          "Female: White, non-Hispanic: 45-64 years",
+          "Female: White, non-Hispanic: 55-64 years",
+          "Female: White, non-Hispanic: 65 years and older",
+          "Female: White, non-Hispanic: 65-74 years",
+          "Female: White, non-Hispanic: 75-84 years",
+          "Female: White, non-Hispanic: 85 years and older",
+          "Male: All races, Hispanic: 15-24 years",
+          "Male: All races, Hispanic: 25-34 years",
+          "Male: All races, Hispanic: 25-44 years",
+          "Male: All races, Hispanic: 35-44 years",
+          "Male: All races, Hispanic: 45-54 years",
+          "Male: All races, Hispanic: 45-64 years",
+          "Male: All races, Hispanic: 55-64 years",
+          "Male: All races, Hispanic: 65 years and older",
+          "Male: All races, Hispanic: 65-74 years",
+          "Male: All races, Hispanic: 75-84 years",
+          "Male: All races, Hispanic: 85 years and older",
+          "Male: American Indian and Alaska Native, non-Hispanic: 15-24 years",
+          "Male: American Indian and Alaska Native, non-Hispanic: 25-34 years",
+          "Male: American Indian and Alaska Native, non-Hispanic: 25-44 years",
+          "Male: American Indian and Alaska Native, non-Hispanic: 35-44 years",
+          "Male: American Indian and Alaska Native, non-Hispanic: 45-54 years",
+          "Male: American Indian and Alaska Native, non-Hispanic: 45-64 years",
+          "Male: American Indian and Alaska Native, non-Hispanic: 55-64 years",
+          "Male: American Indian and Alaska Native, non-Hispanic: 65 years and older",
+          "Male: American Indian and Alaska Native, non-Hispanic: 65-74 years",
+          "Male: American Indian and Alaska Native, non-Hispanic: 75-84 years",
+          "Male: American Indian and Alaska Native, non-Hispanic: 85 years and older",
+          "Male: Asian or Pacific Islander, non-Hispanic: 15-24 years",
+          "Male: Asian or Pacific Islander, non-Hispanic: 25-34 years",
+          "Male: Asian or Pacific Islander, non-Hispanic: 25-44 years",
+          "Male: Asian or Pacific Islander, non-Hispanic: 35-44 years",
+          "Male: Asian or Pacific Islander, non-Hispanic: 45-54 years",
+          "Male: Asian or Pacific Islander, non-Hispanic: 45-64 years",
+          "Male: Asian or Pacific Islander, non-Hispanic: 55-64 years",
+          "Male: Asian or Pacific Islander, non-Hispanic: 65 years and older",
+          "Male: Asian or Pacific Islander, non-Hispanic: 65-74 years",
+          "Male: Asian or Pacific Islander, non-Hispanic: 75-84 years",
+          "Male: Asian or Pacific Islander, non-Hispanic: 85 years and older",
+          "Male: Black, non-Hispanic: 15-24 years",
+          "Male: Black, non-Hispanic: 25-34 years",
+          "Male: Black, non-Hispanic: 25-44 years",
+          "Male: Black, non-Hispanic: 35-44 years",
+          "Male: Black, non-Hispanic: 45-54 years",
+          "Male: Black, non-Hispanic: 45-64 years",
+          "Male: Black, non-Hispanic: 55-64 years",
+          "Male: Black, non-Hispanic: 65 years and older",
+          "Male: Black, non-Hispanic: 65-74 years",
+          "Male: Black, non-Hispanic: 75-84 years",
+          "Male: Black, non-Hispanic: 85 years and older",
+          "Male: White, non-Hispanic: 15-24 years",
+          "Male: White, non-Hispanic: 25-34 years",
+          "Male: White, non-Hispanic: 25-44 years",
+          "Male: White, non-Hispanic: 35-44 years",
+          "Male: White, non-Hispanic: 45-54 years",
+          "Male: White, non-Hispanic: 45-64 years",
+          "Male: White, non-Hispanic: 55-64 years",
+          "Male: White, non-Hispanic: 65 years and older",
+          "Male: White, non-Hispanic: 65-74 years",
+          "Male: White, non-Hispanic: 75-84 years",
+          "Male: White, non-Hispanic: 85 years and older"
+        ],
+        "confidence": 0.9
+      },
+      "sex_race_and_age_group": {
+        "user_regex": [],
+        "user_keywords": [
+          "sex",
+          "gender",
+          "men",
+          "women",
+          "male",
+          "female",
+          "boys",
+          "girls",
+          "Sex, race, and age group",
+          "sex  race  and age group"
+        ],
+        "cdc_groups": [
+          "Sex, race, and age group"
+        ],
+        "cdc_subgroups": [
+          "Female: American Indian and Alaska Native: 15-24 years",
+          "Female: American Indian and Alaska Native: 25-34 years",
+          "Female: American Indian and Alaska Native: 25-44 years",
+          "Female: American Indian and Alaska Native: 35-44 years",
+          "Female: American Indian and Alaska Native: 45-54 years",
+          "Female: American Indian and Alaska Native: 45-64 years",
+          "Female: American Indian and Alaska Native: 55-64 years",
+          "Female: American Indian and Alaska Native: 65 years and older",
+          "Female: American Indian and Alaska Native: 65-74 years",
+          "Female: American Indian and Alaska Native: 75-84 years",
+          "Female: American Indian and Alaska Native: 85 years and older",
+          "Female: Asian or Pacific Islander: 15-24 years",
+          "Female: Asian or Pacific Islander: 25-34 years",
+          "Female: Asian or Pacific Islander: 25-44 years",
+          "Female: Asian or Pacific Islander: 35-44 years",
+          "Female: Asian or Pacific Islander: 45-54 years",
+          "Female: Asian or Pacific Islander: 45-64 years",
+          "Female: Asian or Pacific Islander: 55-64 years",
+          "Female: Asian or Pacific Islander: 65 years and older",
+          "Female: Asian or Pacific Islander: 65-74 years",
+          "Female: Asian or Pacific Islander: 75-84 years",
+          "Female: Asian or Pacific Islander: 85 years and older",
+          "Female: Black: 15-24 years",
+          "Female: Black: 25-34 years",
+          "Female: Black: 25-44 years",
+          "Female: Black: 35-44 years",
+          "Female: Black: 45-54 years",
+          "Female: Black: 45-64 years",
+          "Female: Black: 55-64 years",
+          "Female: Black: 65 years and older",
+          "Female: Black: 65-74 years",
+          "Female: Black: 75-84 years",
+          "Female: Black: 85 years and older",
+          "Female: White: 15-24 years",
+          "Female: White: 25-34 years",
+          "Female: White: 25-44 years",
+          "Female: White: 35-44 years",
+          "Female: White: 45-54 years",
+          "Female: White: 45-64 years",
+          "Female: White: 55-64 years",
+          "Female: White: 65 years and older",
+          "Female: White: 65-74 years",
+          "Female: White: 75-84 years",
+          "Female: White: 85 years and older",
+          "Male: American Indian and Alaska Native: 15-24 years",
+          "Male: American Indian and Alaska Native: 25-34 years",
+          "Male: American Indian and Alaska Native: 25-44 years",
+          "Male: American Indian and Alaska Native: 35-44 years",
+          "Male: American Indian and Alaska Native: 45-54 years",
+          "Male: American Indian and Alaska Native: 45-64 years",
+          "Male: American Indian and Alaska Native: 55-64 years",
+          "Male: American Indian and Alaska Native: 65 years and older",
+          "Male: American Indian and Alaska Native: 65-74 years",
+          "Male: American Indian and Alaska Native: 75-84 years",
+          "Male: American Indian and Alaska Native: 85 years and older",
+          "Male: Asian or Pacific Islander: 15-24 years",
+          "Male: Asian or Pacific Islander: 25-34 years",
+          "Male: Asian or Pacific Islander: 25-44 years",
+          "Male: Asian or Pacific Islander: 35-44 years",
+          "Male: Asian or Pacific Islander: 45-54 years",
+          "Male: Asian or Pacific Islander: 45-64 years",
+          "Male: Asian or Pacific Islander: 55-64 years",
+          "Male: Asian or Pacific Islander: 65 years and older",
+          "Male: Asian or Pacific Islander: 65-74 years",
+          "Male: Asian or Pacific Islander: 75-84 years",
+          "Male: Asian or Pacific Islander: 85 years and older",
+          "Male: Black: 15-24 years",
+          "Male: Black: 25-34 years",
+          "Male: Black: 25-44 years",
+          "Male: Black: 35-44 years",
+          "Male: Black: 45-54 years",
+          "Male: Black: 45-64 years",
+          "Male: Black: 55-64 years",
+          "Male: Black: 65 years and older",
+          "Male: Black: 65-74 years",
+          "Male: Black: 75-84 years",
+          "Male: Black: 85 years and older",
+          "Male: White: 15-24 years",
+          "Male: White: 25-34 years",
+          "Male: White: 25-44 years",
+          "Male: White: 35-44 years",
+          "Male: White: 45-54 years",
+          "Male: White: 45-64 years",
+          "Male: White: 55-64 years",
+          "Male: White: 65 years and older",
+          "Male: White: 65-74 years",
+          "Male: White: 75-84 years",
+          "Male: White: 85 years and older"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "disability": {
+      "disability_status": {
+        "user_regex": [],
+        "user_keywords": [
+          "disability",
+          "functioning",
+          "functioning difficulties",
+          "Disability status",
+          "disability status"
+        ],
+        "cdc_groups": [
+          "Disability status"
+        ],
+        "cdc_subgroups": [
+          "With disability",
+          "Without disability"
+        ],
+        "confidence": 0.9
+      },
+      "functioning_difficulties_status": {
+        "user_regex": [],
+        "user_keywords": [
+          "disability",
+          "functioning",
+          "functioning difficulties",
+          "Functioning difficulties status",
+          "functioning difficulties status"
+        ],
+        "cdc_groups": [
+          "Functioning difficulties status"
+        ],
+        "cdc_subgroups": [
+          "With functioning difficulties",
+          "Without functioning difficulties"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "education": {
+      "education": {
+        "user_regex": [],
+        "user_keywords": [
+          "education",
+          "schooling",
+          "Education",
+          "education"
+        ],
+        "cdc_groups": [
+          "Education"
+        ],
+        "cdc_subgroups": [
+          "College degree or higher",
+          "High school diploma or GED",
+          "No high school diploma or GED",
+          "Some college"
+        ],
+        "confidence": 0.9
+      },
+      "parental_education": {
+        "user_regex": [],
+        "user_keywords": [
+          "Parental education",
+          "parental education",
+          "parent education",
+          "parent educational level",
+          "mother education",
+          "father education",
+          "parent's education"
+        ],
+        "cdc_groups": [
+          "Parental education"
+        ],
+        "cdc_subgroups": [
+          "College degree or higher",
+          "High school diploma or GED",
+          "No high school diploma or GED",
+          "Some college"
+        ],
+        "confidence": 0.95
+      }
+    },
+    "family": {
+      "family_structure": {
+        "user_regex": [],
+        "user_keywords": [
+          "Family structure",
+          "family structure",
+          "family type",
+          "household structure",
+          "parent structure",
+          "family composition"
+        ],
+        "cdc_groups": [
+          "Family structure"
+        ],
+        "cdc_subgroups": [
+          "At least one related or unrelated adult (not a parent)",
+          "Cohabiting parents",
+          "Married parents",
+          "Single parent, ever married",
+          "Single parent, never married"
+        ],
+        "confidence": 0.95
+      },
+      "parental_employment": {
+        "user_regex": [],
+        "user_keywords": [
+          "Parental employment",
+          "parental employment",
+          "parent employment",
+          "parent work status",
+          "parent's work",
+          "working parents"
+        ],
+        "cdc_groups": [
+          "Parental employment"
+        ],
+        "cdc_subgroups": [
+          "No working parents",
+          "Single parent, working",
+          "Two parents, both working",
+          "Two parents, one working"
+        ],
+        "confidence": 0.95
+      }
+    },
+    "insurance": {
+      "health_insurance_coverage": {
+        "user_regex": [],
+        "user_keywords": [
+          "Health insurance coverage",
+          "health insurance coverage",
+          "insurance coverage", 
+          "health insurance",
+          "coverage",
+          "insured",
+          "uninsured"
+        ],
+        "cdc_groups": [
+          "Health insurance coverage"
+        ],
+        "cdc_subgroups": [
+          "Medicaid or other state programs",
+          "Other government coverage",
+          "Private",
+          "Uninsured"
+        ],
+        "confidence": 0.9
+      },
+      "health_insurance_coverage_65_and_older": {
+        "user_regex": [],
+        "user_keywords": [
+          "Health insurance coverage: 65 years and older",
+          "health insurance coverage: 65 years and older",
+          "insurance coverage 65 and older",
+          "health insurance 65+",
+          "coverage 65 years and older"
+        ],
+        "cdc_groups": [
+          "Health insurance coverage: 65 years and older"
+        ],
+        "cdc_subgroups": [
+          "Medicare Advantage",
+          "Medicare and Medicaid",
+          "Medicare only excluding Medicare Advantage",
+          "Other government coverage",
+          "Private",
+          "Uninsured"
+        ],
+        "confidence": 0.95
+      },
+      "health_insurance_coverage_younger_than_65": {
+        "user_regex": [],
+        "user_keywords": [
+          "Health insurance coverage: Younger than 65 years",
+          "health insurance coverage: younger than 65 years",
+          "insurance coverage younger than 65",
+          "health insurance under 65",
+          "coverage younger than 65"
+        ],
+        "cdc_groups": [
+          "Health insurance coverage: Younger than 65 years"
+        ],
+        "cdc_subgroups": [
+          "Medicaid or other state programs",
+          "Other government coverage",
+          "Private",
+          "Uninsured"
+        ],
+        "confidence": 0.95
+      },
+      "primary_payment_source": {
+        "user_regex": [],
+        "user_keywords": [
+          "insurance",
+          "coverage",
+          "uninsured",
+          "Primary payment source",
+          "primary payment source"
+        ],
+        "cdc_groups": [
+          "Primary payment source"
+        ],
+        "cdc_subgroups": [
+          "Medicaid",
+          "Medicare",
+          "Other",
+          "Private insurance",
+          "Uninsured"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "other": {
+      "employment_status": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Employment status",
+          "employment status"
+        ],
+        "cdc_groups": [
+          "Employment status"
+        ],
+        "cdc_subgroups": [
+          "Employed",
+          "Employed - Full-time",
+          "Employed - Part-time",
+          "Not employed",
+          "Not employed - Has never worked",
+          "Not employed - Has worked previously"
+        ],
+        "confidence": 0.9
+      },
+      "healthcare_practitioners_and_technical_occupations": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Healthcare practitioners and technical occupations",
+          "healthcare practitioners and technical occupations"
+        ],
+        "cdc_groups": [
+          "Healthcare practitioners and technical occupations"
+        ],
+        "cdc_subgroups": [
+          "Audiologists",
+          "Cardiovascular technologists and technicians",
+          "Clinical laboratory technologists and technicians",
+          "Dental hygienists",
+          "Diagnostic medical sonographers",
+          "Dietetic technicians",
+          "Dietitians and nutritionists",
+          "Emergency medical technicians and paramedics",
+          "Licensed practical and licensed vocational nurses",
+          "Magnetic resonance imaging technologists",
+          "Medical and clinical laboratory technicians",
+          "Medical and clinical laboratory technologists",
+          "Medical records and health information technicians",
+          "Medical records specialists",
+          "Nuclear medicine technologists",
+          "Nurse anesthetists",
+          "Nurse midwives",
+          "Nurse practitioners",
+          "Occupational therapists",
+          "Opticians, dispensing",
+          "Pharmacists",
+          "Pharmacy technicians",
+          "Physical therapists",
+          "Physician assistants",
+          "Psychiatric technicians",
+          "Radiation therapists",
+          "Radiologic technologists and technicians",
+          "Recreational therapists",
+          "Registered nurses",
+          "Respiratory therapists",
+          "Respiratory therapy technicians",
+          "Speech-language pathologists"
+        ],
+        "confidence": 0.9
+      },
+      "healthcare_support_occupations": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Healthcare support occupations",
+          "healthcare support occupations"
+        ],
+        "cdc_groups": [
+          "Healthcare support occupations"
+        ],
+        "cdc_subgroups": [
+          "Dental assistants",
+          "Home health aides",
+          "Home health and personal care aides",
+          "Massage therapists",
+          "Medical assistants",
+          "Medical equipment preparers",
+          "Medical transcriptionists",
+          "Nursing assistants",
+          "Occupational therapy aides",
+          "Occupational therapy assistants",
+          "Orderlies",
+          "Pharmacy aides",
+          "Physical therapist aides",
+          "Physical therapist assistants",
+          "Psychiatric aides"
+        ],
+        "confidence": 0.9
+      },
+      "level_of_difficulties": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Level of difficulties",
+          "level of difficulties"
+        ],
+        "cdc_groups": [
+          "Level of difficulties"
+        ],
+        "cdc_subgroups": [
+          "A lot of difficulties or cannot do at all",
+          "No difficulties",
+          "Some difficulties"
+        ],
+        "confidence": 0.9
+      },
+      "nativity": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Nativity",
+          "nativity", 
+          "foreign born", 
+          "native born",
+          "nativity"
+        ],
+        "cdc_groups": [
+          "Nativity"
+        ],
+        "cdc_subgroups": [
+          "Foreign-born",
+          "U.S.-born"
+        ],
+        "confidence": 0.9
+      },
+      "size_for_nonfederal_community_hospitals": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Size for nonfederal community hospitals",
+          "size for nonfederal community hospitals"
+        ],
+        "cdc_groups": [
+          "Size for nonfederal community hospitals"
+        ],
+        "cdc_subgroups": [
+          "100-199 beds",
+          "200-299 beds",
+          "25-49 beds",
+          "300-399 beds",
+          "400-499 beds",
+          "50-99 beds",
+          "500 beds or more",
+          "6-24 beds"
+        ],
+        "confidence": 0.9
+      },
+      "social_vulnerability": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Social vulnerability",
+          "vulnerability",
+          "social vulnerability"
+        ],
+        "cdc_groups": [
+          "Social vulnerability"
+        ],
+        "cdc_subgroups": [
+          "High social vulnerability",
+          "Little to no social vulnerability",
+          "Low social vulnerability",
+          "Medium social vulnerability"
+        ],
+        "confidence": 0.9
+      },
+      "source_of_funds": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Source of funds",
+          "source of funds"
+        ],
+        "cdc_groups": [
+          "Source of funds"
+        ],
+        "cdc_subgroups": [
+          "Health insurance",
+          "Health insurance - CHIP",
+          "Health insurance - CHIP - Federal",
+          "Health insurance - CHIP - State and local",
+          "Health insurance - Medicaid",
+          "Health insurance - Medicaid - Federal",
+          "Health insurance - Medicaid - State and local",
+          "Health insurance - Medicare",
+          "Health insurance - Other programs",
+          "Health insurance - Private",
+          "Other third-party payers and programs",
+          "Out-of-pocket payments"
+        ],
+        "confidence": 0.9
+      },
+      "state": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "State",
+          "state"
+        ],
+        "cdc_groups": [
+          "State"
+        ],
+        "cdc_subgroups": [
+          "Alabama",
+          "Alaska",
+          "Arizona",
+          "Arkansas",
+          "California",
+          "Colorado",
+          "Connecticut",
+          "Delaware",
+          "District of Columbia",
+          "Florida",
+          "Georgia",
+          "Hawaii",
+          "Idaho",
+          "Illinois",
+          "Indiana",
+          "Iowa",
+          "Kansas",
+          "Kentucky",
+          "Louisiana",
+          "Maine",
+          "Maryland",
+          "Massachusetts",
+          "Michigan",
+          "Minnesota",
+          "Mississippi",
+          "Missouri",
+          "Montana",
+          "Nebraska",
+          "Nevada",
+          "New Hampshire",
+          "New Jersey",
+          "New Mexico",
+          "New York",
+          "North Carolina",
+          "North Dakota",
+          "Ohio",
+          "Oklahoma",
+          "Oregon",
+          "Pennsylvania",
+          "Rhode Island",
+          "South Carolina",
+          "South Dakota",
+          "Tennessee",
+          "Texas",
+          "Utah",
+          "Vermont",
+          "Virginia",
+          "Washington",
+          "West Virginia",
+          "Wisconsin",
+          "Wyoming"
+        ],
+        "confidence": 0.9
+      },
+      "state_or_territory": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "State or territory",
+          "state or territory"
+        ],
+        "cdc_groups": [
+          "State or territory"
+        ],
+        "cdc_subgroups": [
+          "Alabama",
+          "Alaska",
+          "American Samoa",
+          "Arizona",
+          "Arkansas",
+          "California",
+          "Colorado",
+          "Connecticut",
+          "Delaware",
+          "District of Columbia",
+          "Florida",
+          "Georgia",
+          "Guam",
+          "Hawaii",
+          "Idaho",
+          "Illinois",
+          "Indiana",
+          "Iowa",
+          "Kansas",
+          "Kentucky",
+          "Louisiana",
+          "Maine",
+          "Maryland",
+          "Massachusetts",
+          "Michigan",
+          "Minnesota",
+          "Mississippi",
+          "Missouri",
+          "Montana",
+          "Nebraska",
+          "Nevada",
+          "New Hampshire",
+          "New Jersey",
+          "New Mexico",
+          "New York",
+          "North Carolina",
+          "North Dakota",
+          "Northern Marianas",
+          "Ohio",
+          "Oklahoma",
+          "Oregon",
+          "Pennsylvania",
+          "Puerto Rico",
+          "Rhode Island",
+          "South Carolina",
+          "South Dakota",
+          "Tennessee",
+          "Texas",
+          "Utah",
+          "Vermont",
+          "Virgin Islands",
+          "Virginia",
+          "Washington",
+          "West Virginia",
+          "Wisconsin",
+          "Wyoming"
+        ],
+        "confidence": 0.9
+      },
+      "total": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Total",
+          "total"
+        ],
+        "cdc_groups": [
+          "Total"
+        ],
+        "cdc_subgroups": [
+          "18 years and older",
+          "2 years and older",
+          "2-11 years",
+          "2-19 years",
+          "20 years and older",
+          "20-49 years",
+          "20-69 years",
+          "6-19 years",
+          "60 years and older",
+          "All ages",
+          "All community hospitals",
+          "All hospitals",
+          "All mothers",
+          "All visits",
+          "Total",
+          "United States",
+          "Younger than 18 years",
+          "Younger than 65 years"
+        ],
+        "confidence": 0.9
+      },
+      "type": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Type",
+          "type"
+        ],
+        "cdc_groups": [
+          "Type"
+        ],
+        "cdc_subgroups": [
+          "Health consumption spending",
+          "Health consumption spending - Government administration and net cost of private health insurance",
+          "Health consumption spending - Government administration and net cost of private health insurance - Government administration",
+          "Health consumption spending - Government administration and net cost of private health insurance - Net cost of health insurance",
+          "Health consumption spending - Government public health activities",
+          "Health consumption spending - Personal health care",
+          "Health consumption spending - Personal health care - Dental services",
+          "Health consumption spending - Personal health care - Durable medical equipment",
+          "Health consumption spending - Personal health care - Home health care",
+          "Health consumption spending - Personal health care - Hospital care",
+          "Health consumption spending - Personal health care - Nursing care facilities and continuing care retirement communities",
+          "Health consumption spending - Personal health care - Other health, residential, and personal care",
+          "Health consumption spending - Personal health care - Other non-durable medical products",
+          "Health consumption spending - Personal health care - Other professional services",
+          "Health consumption spending - Personal health care - Physician and clinical services",
+          "Health consumption spending - Personal health care - Prescription drugs",
+          "Investment",
+          "Investment - Research",
+          "Investment - Structures and equipment"
+        ],
+        "confidence": 0.9
+      },
+      "type_of_ownership": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Type of ownership",
+          "type of ownership"
+        ],
+        "cdc_groups": [
+          "Type of ownership"
+        ],
+        "cdc_subgroups": [
+          "Federal",
+          "Nonfederal",
+          "Nonfederal - Community",
+          "Nonfederal - Community - For profit",
+          "Nonfederal - Community - Nonprofit",
+          "Nonfederal - Community - State-local government"
+        ],
+        "confidence": 0.9
+      },
+      "urbanicity": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Urbanicity",
+          "urban areas",
+          "rural",
+          "urbanicity"
+        ],
+        "cdc_groups": [
+          "Urbanicity"
+        ],
+        "cdc_subgroups": [
+          "Large central metro",
+          "Large fringe metro",
+          "Medium and small metro",
+          "Nonmetropolitan"
+        ],
+        "confidence": 0.9
+      },
+      "veteran_status": {
+        "user_regex": [],
+        "user_keywords": [
+          "other",
+          "Veteran status",
+          "veteran status"
+        ],
+        "cdc_groups": [
+          "Veteran status"
+        ],
+        "cdc_subgroups": [
+          "Non-veteran",
+          "Veteran"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "marital status": {
+      "marital_status": {
+        "user_regex": [],
+        "user_keywords": [
+          "marital",
+          "married",
+          "never married",
+          "Marital status",
+          "marital status"
+        ],
+        "cdc_groups": [
+          "Marital status"
+        ],
+        "cdc_subgroups": [
+          "Divorced or separated",
+          "Living with a partner",
+          "Married",
+          "Never married",
+          "Widowed"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "race": {
+      "race_and_hispanic_origin": {
+        "user_regex": [],
+        "user_keywords": [
+          "Race and Hispanic origin",
+          "race and hispanic origin",
+          "race and ethnicity", 
+          "racial and ethnic breakdown",
+          "race/ethnicity"
+        ],
+        "cdc_groups": [
+          "Race and Hispanic origin"
+        ],
+        "cdc_subgroups": [
+          "All races, Hispanic",
+          "All races, Hispanic, Cuban",
+          "All races, Hispanic, Mexican",
+          "All races, Hispanic, Other",
+          "All races, Hispanic, Puerto Rican",
+          "All races, non-Hispanic",
+          "American Indian and Alaska Native, non-Hispanic",
+          "Asian only, non-Hispanic",
+          "Asian or Pacific Islander, non-Hispanic",
+          "Black only, non-Hispanic",
+          "Black, non-Hispanic",
+          "Other races, non-Hispanic",
+          "White only, non-Hispanic",
+          "White, non-Hispanic"
+        ],
+        "confidence": 0.85
+      },
+      "race": {
+        "user_regex": [],
+        "user_keywords": [
+          "race",
+          "racial"
+        ],
+        "cdc_groups": [
+          "Race"
+        ],
+        "cdc_subgroups": [
+          "American Indian and Alaska Native and White",
+          "American Indian and Alaska Native only",
+          "Asian only",
+          "Asian or Pacific Islander only",
+          "Black and White",
+          "Black only",
+          "Native Hawaiian or Other Pacific Islander only",
+          "Two or more races",
+          "White only"
+        ],
+        "confidence": 0.85
+      },
+      "maternal_race": {
+        "user_regex": [],
+        "user_keywords": [
+          "race",
+          "ethnicity",
+          "race and ethnicity",
+          "race/ethnicity",
+          "hispanic",
+          "Maternal race",
+          "maternal race"
+        ],
+        "cdc_groups": [
+          "Maternal race"
+        ],
+        "cdc_subgroups": [
+          "American Indian and Alaska Native",
+          "Asian or Pacific Islander",
+          "Black",
+          "White"
+        ],
+        "confidence": 0.9
+      },
+      "maternal_race_single_race": {
+        "user_regex": [],
+        "user_keywords": [
+          "race",
+          "ethnicity",
+          "race and ethnicity",
+          "race/ethnicity",
+          "hispanic",
+          "Maternal race (single race)",
+          "maternal race  single race"
+        ],
+        "cdc_groups": [
+          "Maternal race (single race)"
+        ],
+        "cdc_subgroups": [
+          "American Indian and Alaska Native only",
+          "Black only",
+          "White only"
+        ],
+        "confidence": 0.9
+      },
+      "maternal_race_and_hispanic_origin": {
+        "user_regex": [],
+        "user_keywords": [
+          "race",
+          "ethnicity",
+          "race and ethnicity",
+          "race/ethnicity",
+          "hispanic",
+          "Maternal race and Hispanic origin",
+          "maternal race and hispanic origin"
+        ],
+        "cdc_groups": [
+          "Maternal race and Hispanic origin"
+        ],
+        "cdc_subgroups": [
+          "All races, Hispanic",
+          "All races, Hispanic, Central and South American",
+          "All races, Hispanic, Cuban",
+          "All races, Hispanic, Mexican",
+          "All races, Hispanic, Other",
+          "All races, Hispanic, Puerto Rican",
+          "American Indian and Alaska Native, non-Hispanic",
+          "Asian or Pacific Islander, non-Hispanic",
+          "Black, non-Hispanic",
+          "White, non-Hispanic"
+        ],
+        "confidence": 0.9
+      },
+      "maternal_race_and_hispanic_origin_single_race": {
+        "user_regex": [],
+        "user_keywords": [
+          "race",
+          "ethnicity",
+          "race and ethnicity",
+          "race/ethnicity",
+          "hispanic",
+          "Maternal race and Hispanic origin (single race)",
+          "maternal race and hispanic origin  single race"
+        ],
+        "cdc_groups": [
+          "Maternal race and Hispanic origin (single race)"
+        ],
+        "cdc_subgroups": [
+          "All races, Hispanic",
+          "All races, Hispanic, Central and South American",
+          "All races, Hispanic, Cuban",
+          "All races, Hispanic, Mexican",
+          "All races, Hispanic, Other",
+          "All races, Hispanic, Puerto Rican",
+          "American Indian and Alaska Native only, non-Hispanic",
+          "Asian only, non-Hispanic",
+          "Black only, non-Hispanic",
+          "Native Hawaiian or Other Pacific Islander only, non-Hispanic",
+          "White only, non-Hispanic"
+        ],
+        "confidence": 0.9
+      },
+      "race_and_hispanic_origin_single_race": {
+        "user_regex": [],
+        "user_keywords": [
+          "race",
+          "ethnicity",
+          "race and ethnicity",
+          "race/ethnicity",
+          "hispanic",
+          "Race and Hispanic origin (single race)",
+          "race and hispanic origin  single race"
+        ],
+        "cdc_groups": [
+          "Race and Hispanic origin (single race)"
+        ],
+        "cdc_subgroups": [
+          "All races, Hispanic",
+          "American Indian and Alaska Native only, non-Hispanic",
+          "Asian only, non-Hispanic",
+          "Black only, non-Hispanic",
+          "Native Hawaiian or Other Pacific Islander only, non-Hispanic",
+          "White only, non-Hispanic"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "metro": {
+      "metropolitan_statistical_area": {
+        "user_regex": [],
+        "user_keywords": [
+          "metro",
+          "metropolitan",
+          "urban",
+          "urbanization",
+          "Metropolitan statistical area",
+          "metropolitan statistical area"
+        ],
+        "cdc_groups": [
+          "Metropolitan statistical area"
+        ],
+        "cdc_subgroups": [
+          "Large MSA",
+          "MSA",
+          "Non-MSA",
+          "Small MSA"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "income": {
+      "poverty_level": {
+        "user_regex": [],
+        "user_keywords": [
+          "income",
+          "family income",
+          "poverty",
+          "fpl",
+          "Poverty level",
+          "poverty level"
+        ],
+        "cdc_groups": [
+          "Poverty level"
+        ],
+        "cdc_subgroups": [
+          "100% to <200% FPL",
+          "200% to <400% FPL",
+          "200% to >400% FPL",
+          "<100% FPL",
+          "â‰¥200% FPL",
+          "â‰¥400% FPL"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "region": {
+      "region": {
+        "user_regex": [],
+        "user_keywords": [
+          "region",
+          "Region",
+          "region"
+        ],
+        "cdc_groups": [
+          "Region"
+        ],
+        "cdc_subgroups": [
+          "Midwest",
+          "Northeast",
+          "South",
+          "West"
+        ],
+        "confidence": 0.9
+      }
+    },
+    "sexual orientation": {
+      "sexual_orientation": {
+        "user_regex": [],
+        "user_keywords": [
+          "sexual orientation",
+          "sexual identity",
+          "orientation",
+          "sogi",
+          "gay",
+          "lesbian",
+          "bisexual",
+          "straight",
+          "heterosexual",
+          "lgbt",
+          "lgbtq",
+          "lgb",
+          "Sexual orientation",
+          "sexual orientation"
+        ],
+        "cdc_groups": [
+          "Sexual orientation"
+        ],
+        "cdc_subgroups": [
+          "Bisexual",
+          "Gay or Lesbian",
+          "Straight"
+        ],
+        "confidence": 0.9
+      },
+   "composite_group_mappings": {
+    "hospital_ownership": {
+      "user_keywords": ["type of ownership", "ownership type", "hospital ownership", "ownership"],
+      "cdc_groups": ["Type of ownership"],
+      "confidence": 0.95
+    },
+    "hospital_size": {
+      "user_keywords": ["size for nonfederal community hospitals", "hospital size", "bed size", "size"],
+      "cdc_groups": ["Size for nonfederal community hospitals"],
+      "confidence": 0.95
+    },
+    "healthcare_practitioners": {
+      "user_keywords": ["healthcare practitioners and technical occupations", "healthcare practitioners", "medical practitioners", "practitioners", "technical occupations"],
+      "cdc_groups": ["Healthcare practitioners and technical occupations"],
+      "confidence": 0.95
+    },
+    "healthcare_support": {
+      "user_keywords": ["healthcare support occupations", "support occupations", "healthcare support"],
+      "cdc_groups": ["Healthcare support occupations"],
+      "confidence": 0.95
+    },
+    "sex_age_combo": {
+      "user_keywords": ["sex and age group", "gender and age", "sex by age"],
+      "cdc_groups": ["Sex and age group", "Age group and sex"],
+      "confidence": 0.95
+    },
+    "sex_race_combo": {
+      "user_keywords": ["sex and race", "gender and race", "sex by race"],
+      "cdc_groups": ["Sex and race", "Sex and race (single race)"],
+      "confidence": 0.95
+    },
+    "sex_race_hispanic_combo": {
+      "user_keywords": ["sex and race and hispanic origin", "gender and race and ethnicity", "sex race ethnicity"],
+      "cdc_groups": ["Sex and race and Hispanic origin", "Sex and race and Hispanic origin (single race)"],
+      "confidence": 0.95
+    },
+    "race_hispanic_combo": {
+      "user_keywords": ["race and hispanic origin", "race and ethnicity", "racial and ethnic"],
+      "cdc_groups": ["Race and Hispanic origin", "Race and Hispanic origin (single race)"],
+      "confidence": 0.95
+    },
+    "sex_marital_age_combo": {
+      "user_keywords": ["sex and marital status for age group", "gender marital age", "sex marital age"],
+      "cdc_groups": ["Sex and marital status for age group 18-64 years", "Sex and marital status for age group 14-64 years"],
+      "confidence": 0.95
+    },
+    "maternal_race_combo": {
+      "user_keywords": ["maternal race", "mother race", "maternal race and hispanic origin"],
+      "cdc_groups": ["Maternal race", "Maternal race (single race)", "Maternal race and Hispanic origin", "Maternal race and Hispanic origin (single race)"],
+      "confidence": 0.95
+    },
+    "level_difficulties": {
+      "user_keywords": ["level of difficulties", "difficulty level", "level of difficulty"],
+      "cdc_groups": ["Level of difficulties", "Level of difficulty for age group 18-64 years"],
+      "confidence": 0.95
+    },
+    "age_poverty_combo": {
+      "user_keywords": ["age group and poverty level", "age poverty", "age income"],
+      "cdc_groups": ["Age group and poverty level"],
+      "confidence": 0.95
+    }   
+        }    
+    }
+  }
+}

@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<title>CDC Health Data Widget</title>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<style>
+  body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif;background:#f8f9fa;height:300px;overflow:hidden}
+  *{box-sizing:border-box}
+  .widget-container{width:900px;height:300px;background:#fff;border:1px solid #e1e5e9;margin:0 auto;display:flex;flex-direction:column}
+  .widget-header{background:linear-gradient(135deg,#0057B7 0%,#003D82 100%);color:#fff;padding:8px 16px;font-size:14px;font-weight:600}
+  .widget-content{flex:1;padding:12px;display:flex;flex-direction:column;gap:10px}
+  .input-row{display:flex;gap:8px}
+  .question-input{flex:1;padding:8px 12px;border:2px solid #e1e5e9;border-radius:6px;font-size:14px}
+  .ask-button{padding:8px 16px;border-radius:6px;border:0;background:#0057B7;color:#fff;font-weight:600}
+  .examples-row{font-size:11px;color:#6c757d;display:flex;gap:12px;flex-wrap:wrap}
+  .examples-label{font-weight:600;color:#495057}
+  .example-link{color:#0057B7;cursor:pointer;text-decoration:none;padding:2px 6px;border-radius:3px}
+  .example-link:hover{background:#e3f2fd;text-decoration:underline}
+  .response-area{flex:1;min-height:140px;background:#f8f9fa;border:1px solid #e1e5e9;border-radius:6px;padding:12px;font-size:13px;line-height:1.45;overflow:auto}
+  .answer{font-size:14px;margin-bottom:4px}
+  .links{display:none;margin:6px 0 4px}
+  .cdc-link{color:#0057B7;text-decoration:none;font-size:12px;font-weight:500;padding:4px 8px;background:#e3f2fd;border-radius:4px}
+  .cdc-link:hover{background:#bbdefb}
+  .meta{font-size:11px;color:#6c757d;margin-top:6px}
+  .loading{color:#6c757d;font-style:italic;margin-top:30px}
+  .warnings{font-size:12px;color:#495057;margin-top:6px}
+  .warnings b{color:#6c757d}
+</style>
+</head>
+<body>
+<div class="widget-container">
+  <div class="widget-header">🏥 CDC Health Data Assistant</div>
+  <div class="widget-content">
+    <div class="input-row">
+      <input id="questionInput" class="question-input" type="text"
+             placeholder="Ask about health statistics (e.g., 'arthritis 2022', 'flu shot by sex latest')" maxlength="200"/>
+      <button id="askButton" class="ask-button">Ask</button>
+    </div>
+    <div class="examples-row">
+      <span class="examples-label">Try:</span>
+      <a class="example-link" onclick="setQ('how many people got a flu shot last year')">flu shot last year</a>
+      <a class="example-link" onclick="setQ('arthritis 2022')">arthritis 2022</a>
+      <a class="example-link" onclick="setQ('receipt of influenza vaccination among adults by sex latest')">flu by sex</a>
+      <a class="example-link" onclick="setQ('diabetes in adults')">diabetes in adults</a>
+    </div>
+    <div id="responseArea" class="response-area">
+      <div class="loading">Ask a question to get started…</div>
+    </div>
+  </div>
+</div>
+
+<script>
+const q   = document.getElementById('questionInput');
+const go  = document.getElementById('askButton');
+const out = document.getElementById('responseArea');
+
+function setQ(t){ q.value=t; q.focus(); }
+
+function escapeHtml(s){
+  return String(s ?? '').replace(/[&<>"]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+}
+
+async function ask(){
+  const text = q.value.trim();
+  if(!text) return;
+  go.disabled = true;
+  out.innerHTML = '<div class="loading">Contacting core…</div>';
+  try{
+    const r = await fetch('/ask', {
+      method:'POST',
+      headers:{'Content-Type':'application/json'},
+      body: JSON.stringify({query:text})
+    });
+    const d = await r.json();
+
+    const ans = d?.answer_text ?? d?.answer ?? d?.core?.answer_text ?? 'No answer';
+    let html = '<div class="answer">'+escapeHtml(ans)+'</div>';
+
+    // Links (accept from root or nested "core")
+    const links = d?.links || d?.core?.links || {};
+    let linkHtml = '';
+    if(links.dataset) linkHtml += '<a class="cdc-link" href="'+links.dataset+'" target="_blank" rel="noopener">Socrata dataset</a> ';
+    if(links.dqs)     linkHtml += '<a class="cdc-link" href="'+links.dqs+'" target="_blank" rel="noopener">DQS</a>';
+    if(linkHtml) html += '<div class="links" style="display:block">'+linkHtml+'</div>';
+
+    // Warnings (root or wrapped)
+    const warnings = Array.isArray(d?.warnings) ? d.warnings
+                   : Array.isArray(d?.core?.warnings) ? d.core.warnings : [];
+    if(warnings.length){
+      html += '<div class="warnings"><b>Notes:</b> ' + warnings.map(w => escapeHtml(w)).join(' · ') + '</div>';
+    }
+
+    // Mode + engine version
+    const modeTxt = d?.mode || (d?.core ? 'mcp' : 'core-only');
+    const engVer  = d?.engine_version ?? d?.core?.engine_version ?? '';
+    html += '<div class="meta">mode: <b>'+escapeHtml(modeTxt)+'</b>'
+          + (engVer ? ' · engine: <b>'+escapeHtml(engVer)+'</b>' : '')
+          + '</div>';
+
+    out.innerHTML = html;
+  }catch(e){
+    out.innerHTML = '<div class="loading">Error: '+escapeHtml(e?.message||e)+'</div>';
+  }finally{
+    go.disabled = false;
+  }
+}
+
+go.addEventListener('click', ask);
+q.addEventListener('keydown', e => { if(e.key==='Enter') ask(); });
+q.focus();
+</script>
+</body>
+</html>

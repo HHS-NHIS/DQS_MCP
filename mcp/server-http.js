@@ -1,0 +1,1 @@
+require('http').createServer((q,r)=>{r.writeHead(200,{'Content-Type':'application/json'});r.end(JSON.stringify({ok:true,service:'mcp'}));}).listen(process.env.PORT||8081,'0.0.0.0');

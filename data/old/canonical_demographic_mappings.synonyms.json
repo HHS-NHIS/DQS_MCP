@@ -1,0 +1,106 @@
+[
+  {
+    "proposed_group": "synthetic",
+    "group_term": "Synthetic from synonym map",
+    "subgroup_values": [
+      "men",
+      "males",
+      "boys"
+    ],
+    "canonical_forms": [
+      "male",
+      "male",
+      "male"
+    ]
+  },
+  {
+    "proposed_group": "synthetic",
+    "group_term": "Synthetic from synonym map",
+    "subgroup_values": [
+      "women",
+      "females",
+      "girls"
+    ],
+    "canonical_forms": [
+      "female",
+      "female",
+      "female"
+    ]
+  },
+  {
+    "proposed_group": "synthetic",
+    "group_term": "Synthetic from synonym map",
+    "subgroup_values": [
+      "gender",
+      "sex"
+    ],
+    "canonical_forms": [
+      "sex",
+      "sex"
+    ]
+  },
+  {
+    "proposed_group": "synthetic",
+    "group_term": "Synthetic from synonym map",
+    "subgroup_values": [
+      "kids",
+      "children"
+    ],
+    "canonical_forms": [
+      "child",
+      "child"
+    ]
+  },
+  {
+    "proposed_group": "synthetic",
+    "group_term": "Synthetic from synonym map",
+    "subgroup_values": [
+      "older adults",
+      "seniors"
+    ],
+    "canonical_forms": [
+      "65 years and older",
+      "65 years and older"
+    ]
+  },
+  {
+    "proposed_group": "synthetic",
+    "group_term": "Synthetic from synonym map",
+    "subgroup_values": [
+      "latino"
+    ],
+    "canonical_forms": [
+      "hispanic"
+    ]
+  },
+  {
+    "proposed_group": "synthetic",
+    "group_term": "Synthetic from synonym map",
+    "subgroup_values": [
+      "black"
+    ],
+    "canonical_forms": [
+      "non-hispanic black"
+    ]
+  },
+  {
+    "proposed_group": "synthetic",
+    "group_term": "Synthetic from synonym map",
+    "subgroup_values": [
+      "white"
+    ],
+    "canonical_forms": [
+      "non-hispanic white"
+    ]
+  },
+  {
+    "proposed_group": "synthetic",
+    "group_term": "Synthetic from synonym map",
+    "subgroup_values": [
+      "asian"
+    ],
+    "canonical_forms": [
+      "non-hispanic asian"
+    ]
+  }
+]

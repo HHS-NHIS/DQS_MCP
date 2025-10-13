@@ -1,0 +1,160 @@
+{
+  "canonical_groups": {
+    "Sex": {
+      "synonyms": [
+        "\\bsex\\b",
+        "\\bsex of (adult|child)\\b",
+        "\\bmale\\b",
+        "\\bfemale\\b",
+        "\\bmen\\b",
+        "\\bwomen\\b",
+        "\\bboys\\b",
+        "\\bgirls\\b"
+      ],
+      "subgroup_synonyms": {
+        "Male": [
+          "\\bmale\\b",
+          "\\bmen\\b",
+          "\\bboys\\b",
+          "\\bman\\b",
+          "\\bboy\\b"
+        ],
+        "Female": [
+          "\\bfemale\\b",
+          "\\bwomen\\b",
+          "\\bgirls\\b",
+          "\\bwoman\\b",
+          "\\bgirl\\b"
+        ],
+        "Total": [
+          "\\boverall\\b",
+          "\\btotal\\b",
+          "\\ball adults\\b",
+          "\\ball children\\b"
+        ]
+      }
+    },
+    "Sexual orientation": {
+      "synonyms": [
+        "\\bsexual orientation\\b",
+        "\\bsexual identity\\b",
+        "\\bgay\\b",
+        "\\blesbian\\b",
+        "\\bbisexual\\b",
+        "\\bstraight\\b",
+        "\\bheterosexual\\b",
+        "\\blgbt\\+?\\b",
+        "\\blgb\\b",
+        "\\bqueer\\b"
+      ],
+      "subgroup_synonyms": {
+        "Gay or lesbian": [
+          "\\bgay\\b",
+          "\\blesbian\\b"
+        ],
+        "Bisexual": [
+          "\\bbisexual\\b",
+          "\\bbi\\b"
+        ],
+        "Straight": [
+          "\\bstraight\\b",
+          "\\bheterosexual\\b"
+        ]
+      }
+    },
+    "Gender identity": {
+      "synonyms": [
+        "\\bgender identity\\b",
+        "\\btrans(gender|sexual)?\\b",
+        "\\bnonbinary\\b"
+      ],
+      "subgroup_synonyms": {
+        "Transgender": [
+          "\\btrans(gender|sexual)?\\b"
+        ],
+        "Nonbinary": [
+          "\\bnon[- ]?binary\\b"
+        ]
+      }
+    },
+    "Age groups": {
+      "synonyms": [
+        "\\bage\\b",
+        "\\bage group(s)?\\b",
+        "\\b\\d{2}[-\u2013]\\d{2}\\b",
+        "\\b65\\+?\\b"
+      ],
+      "subgroup_synonyms": {}
+    },
+    "Race and Hispanic origin": {
+      "synonyms": [
+        "\\brace\\b",
+        "\\bethnicity\\b",
+        "\\bhispanic\\b",
+        "\\bnon-hispanic\\b"
+      ],
+      "subgroup_synonyms": {}
+    }
+  },
+  "precedence": [
+    {
+      "if": {
+        "contains_any_group": [
+          "Sexual orientation"
+        ]
+      },
+      "then_primary_group": "Sexual orientation",
+      "notes": "Orientation tokens override Sex tokens when both appear (e.g., 'gay men')."
+    },
+    {
+      "if": {
+        "contains_any_group": [
+          "Sex"
+        ],
+        "contains_none_group": [
+          "Sexual orientation"
+        ]
+      },
+      "then_primary_group": "Sex",
+      "notes": "No orientation tokens \u2192 map to Sex."
+    },
+    {
+      "if": {
+        "contains_any_group": [
+          "Gender identity"
+        ],
+        "contains_none_group": [
+          "Sexual orientation",
+          "Sex"
+        ]
+      },
+      "then_primary_group": "Gender identity",
+      "notes": "Use if present; otherwise fall back to Sex with explanation."
+    }
+  ],
+  "compound_phrases": [
+    {
+      "pattern": "\\bgay men\\b|\\blesbian women\\b",
+      "interpretation": "Primary = Sexual orientation; secondary mention of Sex is non-operative unless cross-tabs exist.",
+      "fallback": "If cross-tabs not available, show orientation breakdown; explain limitation."
+    },
+    {
+      "pattern": "\\bmen who have sex with men\\b|\\bmsm\\b",
+      "interpretation": "Sexual behavior concept; not identical to Sexual orientation.",
+      "fallback": "If dataset lacks sexual behavior, fall back to Sexual orientation with a disclaimer."
+    }
+  ],
+  "subgroup_ordering": {
+    "Sex": [
+      "Total",
+      "Male",
+      "Female"
+    ],
+    "Sexual orientation": [
+      "Total",
+      "Straight",
+      "Gay or lesbian",
+      "Bisexual"
+    ]
+  }
+}

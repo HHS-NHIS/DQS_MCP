@@ -1,0 +1,62 @@
+[
+  {
+    "topic_key": "influenza vaccination",
+    "keywords": [
+      "flu shot"
+    ],
+    "cdc_topics": [
+      "Influenza vaccination"
+    ],
+    "preferred_datasets": []
+  },
+  {
+    "topic_key": "herpes simplex virus type 1",
+    "keywords": [
+      "herpes"
+    ],
+    "cdc_topics": [
+      "Herpes simplex virus type 1"
+    ],
+    "preferred_datasets": []
+  },
+  {
+    "topic_key": "herpes simplex virus type 2",
+    "keywords": [
+      "herpes"
+    ],
+    "cdc_topics": [
+      "Herpes simplex virus type 2"
+    ],
+    "preferred_datasets": []
+  },
+  {
+    "topic_key": "hypertension",
+    "keywords": [
+      "blood pressure"
+    ],
+    "cdc_topics": [
+      "Hypertension"
+    ],
+    "preferred_datasets": []
+  },
+  {
+    "topic_key": "body mass index (bmi)",
+    "keywords": [
+      "weight status"
+    ],
+    "cdc_topics": [
+      "Body mass index (BMI)"
+    ],
+    "preferred_datasets": []
+  },
+  {
+    "topic_key": "diagnosed diabetes",
+    "keywords": [
+      "diabetes"
+    ],
+    "cdc_topics": [
+      "Diagnosed diabetes"
+    ],
+    "preferred_datasets": []
+  }
+]

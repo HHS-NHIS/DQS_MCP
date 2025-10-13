@@ -1,0 +1,350 @@
+{
+  "Angina/angina pectoris": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Any cancer type": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Any difficulty communicating": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Any difficulty hearing": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Any difficulty remembering or concentrating": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Any difficulty seeing": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Any difficulty walking or climbing steps": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Any difficulty with self care": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Any skin cancer": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Arthritis diagnosis": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Asthma episode/attack in adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Average length of hospital stay": [
+    "https://data.cdc.gov/d/4q35-rqzk"
+  ],
+  "BMI among adults, measured:": [
+    "https://data.cdc.gov/d/be57-s94j"
+  ],
+  "Blood pressure check": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Breast cancer": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "COPD, emphysema, chronic bronchitis": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Calcium intake": [
+    "https://data.cdc.gov/d/8ekv-ep3s"
+  ],
+  "Cancer deaths": [
+    "https://data.cdc.gov/d/h3hw-hzvg"
+  ],
+  "Cervical cancer": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Cholesterol, measured, more detail:": [
+    "https://data.cdc.gov/d/6tn6-vc33"
+  ],
+  "Community hospital beds": [
+    "https://data.cdc.gov/d/8miz-siyd"
+  ],
+  "Complete tooth loss": [
+    "https://data.cdc.gov/d/36ue-xht5"
+  ],
+  "Coronary heart disease": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Counseled by a mental health professional": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Current asthma in adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Current asthma in children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Current cigarette smoking": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Current electronic cigarette or vaping product use": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Daily feelings of worry, nervousness, or anxiety in children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Delayed getting medical care due to cost among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Delayed getting medical care due to cost among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Dental exam or cleaning": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Dentists": [
+    "https://data.cdc.gov/d/yib5-h3pw"
+  ],
+  "Diabetes diagnosis, self-reported": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Did not get needed medical care due to cost": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Did not get needed mental health care due to cost": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Did not take medication as prescribed to save money": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Dietary fiber intake": [
+    "https://data.cdc.gov/d/8ekv-ep3s"
+  ],
+  "Disability status (composite) among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Disability status (composite) among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Doctor visit among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Doctor visit among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Drug overdose deaths:": [
+    "https://data.cdc.gov/d/rdjz-vn2n"
+  ],
+  "Ever having a learning disability in children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Ever having asthma in children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Ever having attention-deficit/hyperactivity disorder in children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Ever received a pneumococcal vaccination": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Exchange-based coverage at time of interview among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Fair or poor health status in adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Fair or poor health status in children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Fetal, late fetal, and perinatal deaths:": [
+    "https://data.cdc.gov/d/wd75-kcmv"
+  ],
+  "Functioning difficulties (composite, three-level):": [
+    "https://data.cdc.gov/d/btv3-srcc"
+  ],
+  "Functioning difficulties status (composite) among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Functioning difficulties status (composite) among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Has a usual place of care among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Has a usual place of care among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Healthcare employment and wages:": [
+    "https://data.cdc.gov/d/7siw-u4fz"
+  ],
+  "Heart attack/myocardial infarction": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Heart disease deaths": [
+    "https://data.cdc.gov/d/7aq9-prdf"
+  ],
+  "Herpes simplex virus type 1": [
+    "https://data.cdc.gov/d/v7tk-n6v3"
+  ],
+  "Herpes simplex virus type 2": [
+    "https://data.cdc.gov/d/v7tk-n6v3"
+  ],
+  "High cholesterol diagnosis, self-reported": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Hospital admissions": [
+    "https://data.cdc.gov/d/4q35-rqzk"
+  ],
+  "Hospital emergency department visit": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Hospital emergency department visits by primary diagnosis:": [
+    "https://data.cdc.gov/d/8ekv-ep3s"
+  ],
+  "Hospital emergency department visits by reason for visit:": [
+    "https://data.cdc.gov/d/8ekv-ep3s"
+  ],
+  "Hospital outpatient visits": [
+    "https://data.cdc.gov/d/4q35-rqzk"
+  ],
+  "Hypertension diagnosis, self-reported": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Hypertension, measured, more detail": [
+    "https://data.cdc.gov/d/va5e-efw9"
+  ],
+  "Infant mortality by race and Hispanic origin:": [
+    "https://data.cdc.gov/d/pjb2-jvdr"
+  ],
+  "Infant, neonatal, and postneonatal deaths:": [
+    "https://data.cdc.gov/d/j7ym-uwqy"
+  ],
+  "Iron intake": [
+    "https://data.cdc.gov/d/8ekv-ep3s"
+  ],
+  "Medicaid coverage among people younger than 65 years": [
+    "https://data.cdc.gov/d/hdja-ybdg"
+  ],
+  "Missing 11 or more school days due to illness or injury": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "National health spending": [
+    "https://data.cdc.gov/d/s57w-7gbe"
+  ],
+  "Obesity in adults, self-reported": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Obesity in children, measured, more detail": [
+    "https://data.cdc.gov/d/uzn2-cq9f"
+  ],
+  "Outpatient surgery for community hospitals": [
+    "https://data.cdc.gov/d/4q35-rqzk"
+  ],
+  "Personal healthcare spending:": [
+    "https://data.cdc.gov/d/gu48-2cs8"
+  ],
+  "Potassium intake": [
+    "https://data.cdc.gov/d/8ekv-ep3s"
+  ],
+  "Prescription medication use among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Prescription medication use among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Prescription medication use, by number of medications:": [
+    "https://data.cdc.gov/d/kusj-ex57"
+  ],
+  "Private health insurance coverage at time of interview among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Prostate cancer": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Public health insurance coverage at time of interview among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Receipt of influenza vaccination among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Receipt of influenza vaccination among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Receive special education or early intervention services among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Receive special education services for mental health problems among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Regularly experienced chronic pain": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Regularly had feelings of depression": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Regularly had feelings of worry, nervousness, or anxiety": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Saturated fat intake": [
+    "https://data.cdc.gov/d/8ekv-ep3s"
+  ],
+  "Six or more workdays missed due to illness, injury, or disability": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Sodium intake": [
+    "https://data.cdc.gov/d/8ekv-ep3s"
+  ],
+  "Suicide deaths": [
+    "https://data.cdc.gov/d/w26f-tf3h"
+  ],
+  "Taking prescription medication for feelings of depression": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Taking prescription medication for feelings of worry, nervousness, or anxiety": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Total dental caries in permanent teeth in adults": [
+    "https://data.cdc.gov/d/36ue-xht5"
+  ],
+  "Total dental caries in permanent teeth in children": [
+    "https://data.cdc.gov/d/36ue-xht5"
+  ],
+  "Total dental caries in primary teeth": [
+    "https://data.cdc.gov/d/36ue-xht5"
+  ],
+  "Two or more hospital emergency department visits among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Two or more urgent care center or retail health clinic visits among children:": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Uninsured at time of interview among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Uninsured at time of interview among children": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Uninsured for at least part of the past year among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Uninsured for more than one year among adults": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Unmet need for health care due to cost:": [
+    "https://data.cdc.gov/d/p4r5-qsgs"
+  ],
+  "Untreated dental caries in permanent teeth in adults": [
+    "https://data.cdc.gov/d/36ue-xht5"
+  ],
+  "Untreated dental caries in permanent teeth in children": [
+    "https://data.cdc.gov/d/36ue-xht5"
+  ],
+  "Untreated dental caries in primary teeth": [
+    "https://data.cdc.gov/d/36ue-xht5"
+  ],
+  "Urgent care center or retail health clinic visit among adults:": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ],
+  "Vitamin D intake": [
+    "https://data.cdc.gov/d/8ekv-ep3s"
+  ],
+  "Well child check-up": [
+    "https://data.cdc.gov/d/7ctq-myvs"
+  ],
+  "Wellness visit": [
+    "https://data.cdc.gov/d/gj3i-hsbz"
+  ]
+}

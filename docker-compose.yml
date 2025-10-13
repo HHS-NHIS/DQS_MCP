@@ -1,0 +1,47 @@
+name: dqs14
+
+services:
+  core:
+    build:
+      context: ./core
+      dockerfile: Dockerfile
+    image: dqs-core
+    environment:
+      - DATA_PATH=/app/standardized_dqs_full.json
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request,sys; sys.exit(0 if urllib.request.urlopen('http://127.0.0.1:8000/health').getcode()==200 else 1)"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+      start_period: 5s
+    ports:
+      - "8123:8000"
+    restart: unless-stopped
+
+  widget:
+    build:
+      context: ./widget
+      dockerfile: Dockerfile
+    image: dqs-widget
+    environment:
+      - CORE_URL=http://core:8000/v1/widget_text
+      - CORE_HEALTH=http://core:8000/health
+      - PORT=8099
+    depends_on:
+      core:
+        condition: service_healthy
+    ports:
+      - "8130:8099"
+    restart: unless-stopped
+
+  mcp:
+    build:
+      context: ./mcp
+      dockerfile: Dockerfile
+    image: dqs-mcp
+    environment:
+      - CORE_URL=http://core:8000/v1/widget_text
+    depends_on:
+      core:
+        condition: service_healthy
+    restart: unless-stopped

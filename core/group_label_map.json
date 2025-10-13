@@ -1,0 +1,15 @@
+{
+  "orders": {
+    "Sex": [
+      "Male",
+      "Female"
+    ],
+    "Race & Hispanic origin": [
+      "Hispanic",
+      "Non-Hispanic White",
+      "Non-Hispanic Black",
+      "Non-Hispanic Asian",
+      "Non-Hispanic Other"
+    ]
+  }
+}
