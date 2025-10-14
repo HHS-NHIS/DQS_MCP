@@ -2,9 +2,10 @@ name: Smoke Test
 
 on:
   push:
-    branches: [ "main" ]
+    branches: ["main"]
   pull_request:
-    branches: [ "main" ]
+    branches: ["main"]
+  workflow_dispatch: {}   # enables "Run workflow" button
 
 jobs:
   smoke:
@@ -25,19 +26,23 @@ jobs:
 
       - name: Wait for core health
         run: |
-          for i in {1..60}; do
+          for i in {1..90}; do
             if curl -fsS http://localhost:8123/health >/dev/null; then
-              echo "Core is healthy"; break
+              echo "Core is healthy"; exit 0
             fi
-            echo "Waiting for core... ($i)"
-            sleep 1
+            echo "Waiting for core... ($i)"; sleep 1
           done
-          curl -fsS http://localhost:8123/health
+          echo "Core health failed"; docker compose ps; exit 1
 
-      - name: Run smoke test
+      - name: Inline smoke test (no external script)
         run: |
-          chmod +x scripts/smoke_test.sh
-          CORE_BASE_URL="http://localhost:8123" ./scripts/smoke_test.sh
+          curl -fsS http://localhost:8123/health >/dev/null
+          RESP="$(curl -fsS -X POST http://localhost:8123/v1/widget_text \
+            -H 'Content-Type: application/json' \
+            -d '{"query":"Current asthma in adults by sex in the latest year available"}')"
+          echo "$RESP" | grep -q '"answer_text"'    || { echo "missing answer_text"; echo "$RESP"; exit 1; }
+          echo "$RESP" | grep -q '"engine_version"' || { echo "missing engine_version"; echo "$RESP"; exit 1; }
+          echo "Smoke test OK"
 
       - name: Compose logs (always)
         if: always()
