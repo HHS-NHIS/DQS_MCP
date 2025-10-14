@@ -2,10 +2,9 @@ name: Smoke Test
 
 on:
   push:
-    branches: ["main"]
+    branches: [ "main" ]
   pull_request:
-    branches: ["main"]
-  workflow_dispatch: {}   # enables "Run workflow" button
+    branches: [ "main" ]
 
 jobs:
   smoke:
@@ -37,69 +36,8 @@ jobs:
 
       - name: Run smoke test
         run: |
-          curl -fsS http://localhost:8123/health >/dev/null
-          curl -fsS -X POST http://localhost:8123/v1/widget_text \
-            -H 'Content-Type: application/json' \
-            -d '{"query":"C
-
-# abort the rebase and just merge instead
-git rebase --abort
-git pull --no-rebase origin "$DEFAULT_BRANCH"
-# then re-run from the "Create/overwrite the workflow file" step above
-
-# 1) Make sure we’re on the default branch and up to date
-git fetch origin
-DEFAULT_BRANCH=$(git remote show origin | sed -n '/HEAD branch/s/.*: //p'); [ -z "$DEFAULT_BRANCH" ] && DEFAULT_BRANCH=main
-git checkout "$DEFAULT_BRANCH"
-git pull --rebase origin "$DEFAULT_BRANCH"
-
-# 2) Create/overwrite the workflow file (adds the Run workflow button via workflow_dispatch)
-mkdir -p .github/workflows
-cat > .github/workflows/smoke.yml <<'YAML'
-name: Smoke Test
-
-on:
-  push:
-    branches: ["main"]
-  pull_request:
-    branches: ["main"]
-  workflow_dispatch: {}   # enables "Run workflow" button
-
-jobs:
-  smoke:
-    runs-on: ubuntu-latest
-    permissions:
-      contents: read
-    steps:
-      - name: Checkout
-        uses: actions/checkout@v4
-
-      - name: Show Docker versions
-        run: |
-          docker --version
-          docker compose version
-
-      - name: Build & start (core + widget) via compose
-        run: docker compose up -d --build core widget
-
-      - name: Wait for core health
-        run: |
-          for i in {1..60}; do
-            if curl -fsS http://localhost:8123/health >/dev/null; then
-              echo "Core is healthy"; break
-            fi
-            echo "Waiting for core... ($i)"
-            sleep 1
-          done
-          curl -fsS http://localhost:8123/health
-
-      - name: Run smoke test
-        run: |
-          curl -fsS http://localhost:8123/health >/dev/null
-          curl -fsS -X POST http://localhost:8123/v1/widget_text \
-            -H 'Content-Type: application/json' \
-            -d '{"query":"Current asthma in adults by sex in the latest year available"}' \
-            | grep -q '"answer_text"' || (echo "missing answer_text" && exit 1)
+          chmod +x scripts/smoke_test.sh
+          CORE_BASE_URL="http://localhost:8123" ./scripts/smoke_test.sh
 
       - name: Compose logs (always)
         if: always()
