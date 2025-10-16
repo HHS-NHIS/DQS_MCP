@@ -29,7 +29,7 @@ ENV PORT=8000
 EXPOSE 8000
 
 # Start (ASCII hyphens only!)
-CMD ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080", "--log-level", "info", "--timeout-keep-alive", "75"]
+CMD ["python", "-m", "uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8080", "--proxy-headers", "--forwarded-allow-ips", "*", "--log-level", "info"]
 
 
 
