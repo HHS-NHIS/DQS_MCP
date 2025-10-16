@@ -2,3 +2,4 @@ fastapi>=0.110.0
 uvicorn[standard]>=0.29.0
 pydantic>=2.5.0
 pandas>=2.2.2
+slowapi>=0.1.9
