@@ -29,7 +29,8 @@ ENV PORT=8000
 EXPOSE 8000
 
 # Start (ASCII hyphens only!)
-CMD ["sh","-lc","python -m uvicorn app:app --host :: --port ${PORT:-8000} --log-level info"]
+CMD ["sh","-lc","python -m uvicorn app:app --host 0.0.0.0 --port ${PORT:-8000} --log-level info"]
+
 
 
 
