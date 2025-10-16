@@ -29,5 +29,6 @@ ENV PORT=8000
 EXPOSE 8000
 
 # Start (ASCII hyphens only!)
-CMD ["sh","-lc","python -m uvicorn app:app --host 0.0.0.0 --port ${PORT:-8000} --log-level info"]
+CMD ["python","-c","import os,uvicorn,app; uvicorn.run(app.app, host='::', port=int(os.environ.get('PORT','8000')), log_level='info')"]
+
 
