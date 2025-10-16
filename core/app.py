@@ -2,6 +2,7 @@
 import os, time
 from fastapi import FastAPI
 from pydantic import BaseModel
+from contextlib import asynccontextmanager
 from DeterministicQueryEngine import DeterministicQueryEngine, ENGINE_VERSION
 from pathlib import Path
 
@@ -10,8 +11,17 @@ if not Path(DATA_PATH).exists():
     # fallback to repo root
     DATA_PATH = "standardized_dqs_full.json"
 
-engine = DeterministicQueryEngine(DATA_PATH)
-app = FastAPI()
+# Initialize engine at startup
+@asynccontextmanager
+async def lifespan(app: FastAPI):
+    # Startup
+    global engine
+    engine = DeterministicQueryEngine(DATA_PATH)
+    yield
+    # Shutdown (nothing to do)
+
+app = FastAPI(lifespan=lifespan)
+engine = None
 
 class Q(BaseModel):
     query: str
@@ -22,11 +32,13 @@ def root():
 
 @app.get("/health")
 def health():
-    df_rows = int(engine.master_df.shape[0]) if engine.master_df is not None else 0
+    if engine is None or engine.master_df is None:
+        return {"status": "initializing"}
+    df_rows = int(engine.master_df.shape[0])
     return {
         "status": "ok",
         "engine_version": ENGINE_VERSION,
-        "master_data_loaded": engine.master_df is not None,
+        "master_data_loaded": True,
         "rows": df_rows,
         "data_path": DATA_PATH,
         "strict_topic_only": engine.strict_topic_only,
