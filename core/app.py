@@ -16,6 +16,10 @@ app = FastAPI()
 class Q(BaseModel):
     query: str
 
+@app.get("/")
+def root():
+    return {"status": "ok", "service": "DQS Core API", "version": ENGINE_VERSION}
+
 @app.get("/health")
 def health():
     df_rows = int(engine.master_df.shape[0]) if engine.master_df is not None else 0
